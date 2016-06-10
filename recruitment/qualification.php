@@ -1,5 +1,4 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css" />
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
 <link rel="stylesheet" href="/assets/css/recruitment.css" />
 </head>
 <body>

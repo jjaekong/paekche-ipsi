@@ -15,6 +15,9 @@
 
 /* 공통 table-wrap */
 /* 공통 table-border  ,  table */
+.table-wrap .table { 
+	margin-bottom:0;
+}
 .table-wrap .table-border {
 	border-top:2px solid #555; 
 	border-left:1px solid #ccc; 
@@ -24,8 +27,12 @@
 	background-color:#f9f9f9; 
 }
 .table-wrap .table thead th {
+	height:41px;
+	line-height:40px;
+	padding:0;
 	border-bottom:0; 
 	border-right:1px solid #ccc; 
+	text-align:center;
 }
 .table-wrap .table thead th:last-child {
 	border-right:0; 
@@ -34,6 +41,8 @@
 	border-bottom:1px solid #ccc; 
 }
 .table-wrap .table tbody tr td {
+	padding:14px;
+	vertical-align:middle;
 	border-right:1px solid #ccc;
 }
 .table-wrap .table tbody tr td:last-child {
@@ -68,17 +77,17 @@
 .circle-list > li:before {
 	position:absolute; 
 	left:0; 
-	top:5px; 
+	top:4px; 
 	display:inline-block; 
 	margin-right:5px; 
-	width:12px; 
-	height:12px; 
+	width:14px; 
+	height:14px; 
 	border-radius:50%; 
 	border:1px solid #333; line-height:10px; 
 	content:counter(my-list-index); 
 	font-size:11px; 
 	text-align:center; 
-	line-height:10px; 
+	line-height:11px; 
 }
 
 /* btn-sm */
@@ -172,4 +181,12 @@
 	border:1px solid #ccc; 
 	border-left:0; 
 	background-color:#fff; 
+}
+.attention {
+	font-size:15px; 
+	color:#666; 
+}
+.attention:before {
+	content:"※";
+	padding-right:10px;
 }

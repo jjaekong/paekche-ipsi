@@ -30,7 +30,7 @@
 	</div>
 	<main id="content" class="recruitment qualification">
 		<div class="container">
-			<section class="sub">
+			<section class="general">
 				<div class="section-header">
 					<hr />
 					<h3>일반 전형</h3>
@@ -42,6 +42,8 @@
 						<li>고등학교 졸업학력 검정고시 합격자</li>
 					</ul>
 				</div>
+			</section>
+			<section class="special">
 				<div class="section-header">
 					<hr />
 					<h3>특별 전형</h3>
@@ -50,112 +52,107 @@
 					<div class="table-wrap">
 						<table class="table table-border">
 							<colgroup>
-								<col style="width: 100px"/>
-								<col style="width: 100px"/>
-								<col style="width: 100px"/>
-								<col style="width: 100px"/>
+								<col style="width: 220px"/>
+								<col style="width: 700px"/>
+								<col style="width: 250px"/>
 							</colgroup>
 							<thead> 
 								<tr>
-									<th>제목</th>
-									<th>제목</th>
-									<th>제목</th>
-									<th>제목</th>
+									<th>구분</th>
+									<th>자격 기준</th>
+									<th>제출 서류</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>내용</td>
-									<td>내용</td>
-									<td>내용</td>
-									<td>내용</td>
+									<td rowspan="2">특기자</td>
+									<td>
+										고교재학 시 청소년 관련 대회 입상자<br>
+										우리 대학 주최 학과 공모전 입상자
+									</td>
+									<td>상장 또는 증빙서류 1부</td>
 								</tr>
 								<tr>
-									<td>내용</td>
-									<td>내용</td>
-									<td>내용</td>
-									<td>내용</td>
+									<td>학과 관련 기능사 3급 이상 자격증 소지자</td>
+									<td>자격증 사본 1부</td>
+								</tr>
+								<tr>
+									<td>국가보훈대상자</td>
+									<td>
+										국가보훈 기본법 제3조 제2호의 '국가보훈대상자'로서<br>
+										국가보훈 관계 법령에 따른 교육지원 대상자
+									</td>
+									<td>대학입학특별전형대상자증명서 1부</td>
 								</tr>
 							</tbody>
 						</table>
+						<p class="attention">이외의 특별전형에 관한 세부기준은 우리대학 ‘대학입학전형관리위원회’에서 심의·결정한 바에 따릅니다.</p>
 					</div>
 				</div>
-
-
-
-
-				<ul class="content-list" style="margin:30px 0;">
-					<li>고등학교 졸업자 또는 2016년 2월 고등학교 졸업예정자</li>
-					<li>고등학교 졸업자 또는 2016년 2월 고등학교 졸업예정자</li>
-					<li>고등학교 졸업자 또는 2016년 2월 고등학교 졸업예정자</li>
-				</ul>
-				<ol class="circle-list" style="margin:30px 0;">
-					<li>지방자치법 제3조에 의한 읍면(도서·벽지)에 소재한 고등학교의 전 교육과정을 이수하고,</li>
-					<li>고등학교 재학기간 동안 본인과 부모 모두가 농어촌 지역에 거주한 자로서 출신 고등학교장의 확인을 받은 자.</li>
-				</ol>
-
-				<div class="btn-area">
-					<p>
-						<a class="btn btn-sm btn-gray" href="#" role="button">목록</a>
-						<a class="btn btn-sm btn-white" href="#" role="button">수정</a>
-						<a class="btn btn-sm btn-white" href="#" role="button">삭제</a>
-						<a class="btn btn-sm btn-pink" href="#" role="button">글쓰기</a>
-					</p>
+			</section>
+			<section class="outside">
+				<div class="section-header">
+					<hr />
+					<h3>정원 외 전형</h3>
 				</div>
-
-				<div class="btn-area">
-					<p>
-						<button type="submit" class="btn btn-pink">확인</button>
-						<a class="btn btn-gray" href="#" role="button">취소</a>
-					</p>
+				<div class="section-content">
+					<div class="table-wrap">
+						<table class="table table-border">
+							<colgroup>
+								<col style="width: 220px"/>
+								<col style="width: 950px"/>
+							</colgroup>
+							<thead> 
+								<tr>
+									<th>구분</th>
+									<th>자격 기준</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>전문대졸 이상자</td>
+									<td>2년제 및 4년제 대학교 졸업자 및 졸업예정자</td>
+								</tr>
+								<tr>
+									<td>농어촌 출신자</td>
+									<td>
+										<ol class="circle-list">
+											<li>지방자치법 제3조에 의한 읍면(도서·벽지)에 소재한 고등학교의 전 교육과정을 이수하고,</li>
+											<li>고등학교 재학기간 동안 본인과 부모 모두가 농어촌 지역에 거주한 자로서 출신 고등학교장의 확인을 받은 자.</li>
+										</ol>
+										<p class="attention">단, 검정고시, 특수목적고, 자율고 출신자는 지원할 수 없음</p>
+									</td>
+								</tr>
+								<tr>
+									<td>국가보훈대상자</td>
+									<td>
+										국민기초생활보장법 제2조 제11호에 따른 차상위 계층
+										<dl>
+											<dt>[복지급여 자격기준]</dt>
+											<dd>차상위 본인부담금 경감, 자활급여, 장애수당, 장애인연금 차상위부가급여, 한부모 가정 지원사업 중 하나 이상의 급여를 받고 있는 가구의 학생</dd>
+										</dl>
+										<p>
+											학생이 속한 세대구성원 중 1명이 동 대상자인 경우 차상위계층으로 인정 <br>
+											단, 추가 증빙서류가 필요할 수 있음 [가족관계증명서, 주민등록등본 등]
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td>외국인</td>
+									<td>
+										외국에서 초·중·고등학교 과정(12년) 이상을 이수한자로 수학능력이 있는자<br>
+										<p class="attention">한국어를 모국어로 하지 않은 외국인</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<p class="attention">이외의 정원외 전형에 관한 세부기준은 우리대학 ‘대학입학전형관리위원회’에서 심의·결정한 바에 따릅니다.</p>
+						<p class="attention">모집인원은 학과별 지원자 수에 따라 변경될 수 있습니다.</p>
+					</div>
 				</div>
-
-				<nav class="paging">
-					<ul class="pagination">
-						<li>
-							<a href="#" aria-label="first-Previous">
-								<span aria-hidden="true">&laquo;</span>
-							</a>
-						</li>
-						<li>
-							<a href="#" aria-label="Previous">
-								<span aria-hidden="true">&lsaquo;</span>
-							</a>
-						</li>
-						<li class="active"><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li>
-							<a href="#" aria-label="Next" >
-								<span aria-hidden="true">&rsaquo;</span>
-							</a>
-						</li>
-						<li>
-							<a href="#" aria-label="end-Next">
-								<span aria-hidden="true">&raquo;</span>
-							</a>
-						</li>
-					</ul>
-				</nav>
-
-				<div class="search-area" style="margin:30px 0;">
-					<form>
-						<div class="form-group">
-							<label for="search-keyword" class="sr-only">검색어</label>
-							<input type="text" name="#" id="search-keyword" class="form-control" placeholder="Search">
-						</div>
-						<button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span><span class="sr-only">검색</span></button>
-					</form>
-				</div>
-
 			</section>
 		</div>
 	</main>
-<style>
-
-</style>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>

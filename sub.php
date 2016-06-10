@@ -1,4 +1,4 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>

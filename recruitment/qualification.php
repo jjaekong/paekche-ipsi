@@ -1,4 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
+<link rel="stylesheet" href="/assets/css/recruitment.css" />
 </head>
 <body>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -26,45 +27,61 @@
 			</ol>
 		</div>
 	</div>
-	<main id="content">
+	<main id="content" class="recruitment qualification">
 		<div class="container">
 			<section class="sub">
 				<div class="section-header">
 					<hr />
 					<h3>일반 전형</h3>
 				</div>
-				<div class="table-wrap">
-					<table class="table table-border">
-						<colgroup>
-							<col style="width: 100px"/>
-							<col style="width: 100px"/>
-							<col style="width: 100px"/>
-							<col style="width: 100px"/>
-						</colgroup>
-						<thead>
-							<tr>
-								<th>제목</th>
-								<th>제목</th>
-								<th>제목</th>
-								<th>제목</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>내용</td>
-								<td>내용</td>
-								<td>내용</td>
-								<td>내용</td>
-							</tr>
-							<tr>
-								<td>내용</td>
-								<td>내용</td>
-								<td>내용</td>
-								<td>내용</td>
-							</tr>
-						</tbody>
-					</table>
+				<div class="section-content">
+					<ul class="content-list">
+						<li>고등학교 졸업자 또는 2016년 2월 고등학교 졸업예정자</li>
+						<li>고등교육법에 의해 위와 동등 이상의 학력이 있다고 인정된 자 (고등교육법 제33조, 초중등교육법 시행령 제98조) </li>
+						<li>고등학교 졸업학력 검정고시 합격자</li>
+					</ul>
 				</div>
+				<div class="section-header">
+					<hr />
+					<h3>특별 전형</h3>
+				</div>
+				<div class="section-content">
+					<div class="table-wrap">
+						<table class="table table-border">
+							<colgroup>
+								<col style="width: 100px"/>
+								<col style="width: 100px"/>
+								<col style="width: 100px"/>
+								<col style="width: 100px"/>
+							</colgroup>
+							<thead> 
+								<tr>
+									<th>제목</th>
+									<th>제목</th>
+									<th>제목</th>
+									<th>제목</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>내용</td>
+									<td>내용</td>
+									<td>내용</td>
+									<td>내용</td>
+								</tr>
+								<tr>
+									<td>내용</td>
+									<td>내용</td>
+									<td>내용</td>
+									<td>내용</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+
+
 
 				<ul class="content-list" style="margin:30px 0;">
 					<li>고등학교 졸업자 또는 2016년 2월 고등학교 졸업예정자</li>
@@ -135,6 +152,9 @@
 			</section>
 		</div>
 	</main>
+<style>
+
+</style>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>

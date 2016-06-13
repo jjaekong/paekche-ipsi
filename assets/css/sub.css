@@ -189,6 +189,8 @@
 	border-left:0; 
 	background-color:#fff; 
 }
+
+/* attention */
 .attention {
 	font-size:15px; 
 	color:#666; 
@@ -197,14 +199,88 @@
 	content:"※";
 	padding-right:10px;
 }
+
+/* standard */
 .standard {
 	font-size:15px; 
 	color:#666; 
 }
-.standard:before {
+.standard:before { 
 	content:"-";
 	padding-right:5px;
 }
+
+/* standard-list */
+.standard-list {
+	font-size:15px; 
+	color:#666; 
+}
+.standard-list li:before {
+	content:"-";
+	padding-right:5px;
+}
+
+/* number-list */
 .number-list {
+	margin-left:14px;
 	list-style:decimal;
+}
+
+/* arrow-list */
+.arrow-list li {
+	display:inline;
+}
+.arrow-list li:after {
+	content:"⇒";
+	padding:0 5px;
+}
+.arrow-list li:first-child:before {
+	content:"[";
+}
+.arrow-list li:last-child:after {
+	content:"]";
+}
+
+/* dl-inline */
+.dl-inline {
+	text-align:left;
+	display:inline;
+	margin-bottom:0;
+}
+.dl-inline dt {
+	display:inline-block;
+	font-weight:300;
+}
+.dl-inline dt:after {
+	content:":";
+	padding:0 5px;
+}
+.dl-inline dd {
+	display:inline;
+}
+
+/* table-align */
+.table-align-left {
+	text-align:left;
+}
+.table-align-center {
+	text-align:center;
+}
+.table-padding-one {
+	padding:30px 14px !important;
+}
+.table-padding-two {
+	padding:40px 14px !important;
+}
+.table-padding-three {
+	padding:50px 14px !important;
+}
+
+.table-wrap .table tbody tr th {
+	border-right:1px solid #ccc;
+	background-color:#f9f9f9;
+	vertical-align:middle;
+	text-align:center;
+	font-size:14px; 
+	font-weight:400;
 }

@@ -33,6 +33,9 @@
 	border-bottom:0; 
 	border-right:1px solid #ccc; 
 	text-align:center;
+	font-weight:400;
+	color:#333;
+	font-size:14px;
 }
 .table-wrap .table thead th:last-child {
 	border-right:0; 
@@ -41,6 +44,8 @@
 	border-bottom:1px solid #ccc; 
 }
 .table-wrap .table tbody tr td {
+	font-size:14px;
+	color:#666;
 	padding:14px;
 	vertical-align:middle;
 	border-right:1px solid #ccc;
@@ -167,6 +172,8 @@
 	height:40px; 
 	box-shadow:none; 
 	width:1101px;
+	padding-right:35px;
+	border-color:#ccc; 
 }
 .search-area .form-control:hover {
 	border-color:#ccc; 
@@ -189,4 +196,15 @@
 .attention:before {
 	content:"※";
 	padding-right:10px;
+}
+.standard {
+	font-size:15px; 
+	color:#666; 
+}
+.standard:before {
+	content:"-";
+	padding-right:5px;
+}
+.number-list {
+	list-style:decimal;
 }

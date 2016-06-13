@@ -15,13 +15,12 @@
 		<div class="container">
 			<ol class="breadcrumb">
 				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-				<li><a href="#">자료실</a></li>
+				<li><a href="#">모집요강</a></li>
 				<!-- li class="active">수업자료실</li -->
 				<li class="active dropdown">
-					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">수업자료실 <span class="caret"></span></a>
+					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">응시자격<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">수업자료실</a></li>
-						<li><a href="#">학생작품갤러리</a></li>
+						<li><a href="#">응시자격</a></li>
 					</ul>
 				</li>
 			</ol>

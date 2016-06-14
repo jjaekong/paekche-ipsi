@@ -784,63 +784,6 @@
 			</section>
 		</div>
 	</main>
-<style>
-
-/* tabmenu nav-pills */
-.schedule.department .container {
-	padding-bottom:140px;
-}
-.schedule.department .schedule .section-content .nav-pills li:first-child {
-	border-left:1px solid #ccc !important;
-}
-.schedule.department .schedule .section-content .nav-pills li a {
-	border: 1px solid #dfdfdf;
-	border-left:0;
-	border-radius:0;
-	font-size:14px; 
-	color:#333;
-	text-decoration:none;
-}
-.schedule.department .schedule .section-content .nav-pills li {
-	background-color:#f9f9f9;
-	width:391px;
-	height:44px;
-}
-.schedule.department .schedule .section-content .nav-pills .active a {
-	background-color:#685b55;
-	border-radius:0;
-	color:#fff;
-	font-size:14px; 
-}
-.schedule.department .schedule .section-content .tab-content {
-	padding:40px 0 20px 0;
-}
-
-/* tab-content table 공통 */
-.schedule.department .schedule .section-content .tab-content .table-wrap .table {
-	text-align:center;
-}
-.schedule.department .schedule .section-content .tab-content .table-wrap .table {
-	table-layout: fixed; 
-}
-.schedule.department .schedule .section-content .tab-content .table-wrap .table tbody tr td b {
-	font-weight:400;
-}
-.schedule.department .schedule .section-content .attention {
-	line-height:24px;
-}
-.schedule.department .schedule .section-content .attention:nth-of-type(1) {
-	
-}
-.schedule.department .schedule .section-content .attention b {
-	color:#d22d36;
-	font-weight:400;
-}
-.schedule.department .schedule .section-content .tab-content .table-wrap .table .total td {
-	background-color:#fafafa;
-	color:#333;
-}
-</style>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>

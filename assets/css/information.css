@@ -9,10 +9,10 @@
 	border-top:2px solid #555; 
 	margin-bottom:0; 
 }
-.table-wrap .table thead {
+.information.notice .container .notice-list .section-content .table-wrap .table thead {
 	background-color:#f9f9f9; 
 }
-.table-wrap .table tbody tr:last-child {
+.information.notice .container .notice-list .section-content .table-wrap .table tbody tr:last-child {
 	border-bottom:1px solid #ccc; 
 }
 .information.notice .container .notice-list .section-content .table-wrap .table thead tr {
@@ -81,10 +81,10 @@
 	border-top:2px solid #555; 
 	margin-bottom:0; 
 }
-.table-wrap .table thead {
+.information.data .container .data-list .section-content .table-wrap .table thead {
 	background-color:#f9f9f9; 
 }
-.table-wrap .table tbody tr:last-child {
+.information.data .container .data-list .section-content .table-wrap .table tbody tr:last-child {
 	border-bottom:1px solid #ccc; 
 }
 .information.data .container .data-list .section-content .table-wrap .table thead tr {
@@ -135,6 +135,79 @@
 	text-align:center; 
 }
 .information.data .container .data-list .btn-area {
+	position:absolute; 
+	top:20px; 
+	right:0; 
+	margin:0; 
+}
+
+
+
+/* competition */
+.information.competition .container .competition-list {
+	padding-bottom:140px; 
+}
+.information.competition .container .competition-list .section-header {
+	padding:63px 0 43px 0; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table {
+	border-top:2px solid #555; 
+	margin-bottom:0; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table thead {
+	background-color:#f9f9f9; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr:last-child {
+	border-bottom:1px solid #ccc; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table thead tr {
+	height:43px; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table thead th {
+	text-align:center; 
+	font-size:14px; 
+	color:#333; 
+	border-bottom:0; 
+	vertical-align:middle;
+	border-right:0;
+	padding:0;
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody {text-align:center; }
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td {
+	border-right:0;
+	padding:0;
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td:nth-of-type(2) {
+	text-align:left; 
+	padding-left:20px; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr {
+	height:43px !important; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td a {
+	font-size:13px; 
+	color:#666; 
+	vertical-align:middle; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td .point {
+	font-size:12px; 
+	color:#fff; 
+	width:50px; 
+	height:20px; 
+	background-color:#d22d36; 
+	border-radius:5px; 
+	text-align:center; 
+	display:inline-block; 
+	line-height:20px; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td .hwp-file {width:13px; }
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td .jpg-file {width:16px; }
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td .pdf-file {width:16px; }
+.information.competition .container .competition-list .paging {
+	position:relative; 
+	text-align:center; 
+}
+.information.competition .container .competition-list .btn-area {
 	position:absolute; 
 	top:20px; 
 	right:0; 

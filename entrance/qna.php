@@ -1,5 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
-<link rel="stylesheet" href="/assets/css/information.css" />
+<link rel="stylesheet" href="/assets/css/entrance.css" />
 </head>
 <body>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -15,12 +15,12 @@
 		<div class="container">
 			<ol class="breadcrumb">
 				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-				<li><a href="#">입시정보</a></li>
+				<li><a href="#">입학 Q&A</a></li>
 				<!-- li class="active">수업자료실</li -->
 				<li class="active dropdown">
-					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">공지사항<span class="caret"></span></a>
+					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">입학 Q&A<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">자료실</a></li>
+						<li><a href="#">입학 Q&A</a></li>
 					</ul>
 				</li>
 			</ol>
@@ -31,7 +31,7 @@
 			<section class="qna-list">
 				<div class="section-header">
 					<hr />
-					<h3>공지사항</h3>
+					<h3>입학 Q&A</h3>
 				</div>
 				<div class="section-content">
 					<div class="search-area">
@@ -173,84 +173,6 @@
 			</section>
 		</div>
 	</main>
-<style>
-.entrance.qna .container .qna-list {
-	padding-bottom:140px; 
-}
-.entrance.qna .container .qna-list .section-header {
-	padding:63px 0 43px 0; 
-}
-.entrance.qna .container .qna-list .section-content .table-wrap .table {
-	border-top:2px solid #555; 
-	margin-bottom:0; 
-}
-.table-wrap .table thead {
-	background-color:#f9f9f9; 
-}
-.table-wrap .table tbody tr:last-child {
-	border-bottom:1px solid #ccc; 
-}
-.entrance.qna .container .qna-list .section-content .table-wrap .table thead tr {
-	height:43px; 
-}
-.entrance.qna .container .qna-list .section-content .table-wrap .table thead th {
-	text-align:center; 
-	font-size:14px; 
-	color:#333; 
-	border-bottom:0; 
-	vertical-align:middle;
-	border-right:0;
-	padding:0;
-}
-.entrance.qna .container .qna-list .section-content .table-wrap .table tbody {text-align:center; }
-.entrance.qna .container .qna-list .section-content .table-wrap .table tbody tr td {
-	border-right:0;
-	padding:0;
-}
-.entrance.qna .container .qna-list .section-content .table-wrap .table tbody tr td:nth-of-type(2) {
-	text-align:left; 
-	padding-left:20px; 
-}
-.entrance.qna .container .qna-list .section-content .table-wrap .table tbody tr {
-	height:43px !important; 
-}
-.entrance.qna .container .qna-list .section-content .table-wrap .table tbody tr td a {
-	font-size:13px; 
-	color:#666; 
-	vertical-align:middle; 
-}
-.entrance.qna .container .qna-list .section-content .table-wrap .table tbody tr td img {
-
-	padding-left:10px;
-}
-.entrance.qna .container .qna-list .section-content .table-wrap .table tbody tr td .hwp-file {width:13px; }
-.entrance.qna .container .qna-list .section-content .table-wrap .table tbody tr td .jpg-file {width:16px; }
-.entrance.qna .container .qna-list .section-content .table-wrap .table tbody tr td .pdf-file {width:16px; }
-.entrance.qna .container .qna-list .paging {
-	position:relative; 
-	text-align:center; 
-}
-.entrance.qna .container .qna-list .btn-area {
-	position:absolute; 
-	top:20px; 
-	right:0; 
-	margin:0; 
-}
-.new {
-	text-align: center;
-	color: #fff;
-	width: 20px;
-	height: 20px;
-	font-size: 11px;
-	border-radius: 50%;
-	background-color: #d22d36;
-	margin-left: 10px;
-	padding-top: 2px;
-	vertical-align:middle;
-	display:inline-block;
-
-}
-</style>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>

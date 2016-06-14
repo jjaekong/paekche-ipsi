@@ -18,7 +18,7 @@
 				<li><a href="#">입시정보</a></li>
 				<!-- li class="active">수업자료실</li -->
 				<li class="active dropdown">
-					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">공지사항<span class="caret"></span></a>
+					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">자료실<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">자료실</a></li>
 					</ul>
@@ -31,7 +31,7 @@
 			<section class="data-list">
 				<div class="section-header">
 					<hr />
-					<h3>공지사항</h3>
+					<h3>자료실</h3>
 				</div>
 				<div class="section-content">
 					<div class="search-area">

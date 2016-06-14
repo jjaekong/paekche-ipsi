@@ -77,7 +77,7 @@
 									<td>수시 / 정시</td>
 									<td>-</td>
 									<td>실기</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										<dl>
 											<dt>노래</dt>
 											<dd>뮤지컬곡 또는 자유곡 1곡</dd>
@@ -95,7 +95,7 @@
 									<td>수시 / 정시</td>
 									<td>-</td>
 									<td>실기, 면접</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										힙합, 재즈댄스, 방송안무 중 택1
 										<dl>
 											<dt>실기</dt>
@@ -142,7 +142,7 @@
 									<td rowspan="3">수시 / 정시</td>
 									<td>K-POP, 미디, 작편곡</td>
 									<td>실기, 면접</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										EDM 스타일의 곡으로 ①·② 中 택1
 										<ol class="circle-list">
 											<li>1곡 이상 자작곡 CD제출 (작품설명서제출)</li>
@@ -163,7 +163,7 @@
 								<tr>
 									<td>싱어송라이터</td>
 									<td>실기</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										<dl>
 											<dt>필수</dt>
 											<dd>자작곡 또는 자유곡 노래 중 택1</dd>
@@ -177,7 +177,7 @@
 								<tr>
 									<td>K-POP 보컬</td>
 									<td>실기</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										<dl>
 											<dt>필수</dt>
 											<dd>자유곡 1곡 (반주자 또는 오디오 포맷 MR CD)</dd>
@@ -193,7 +193,7 @@
 									<td rowspan="2">수시, 정시</td>
 									<td>보컬</td>
 									<td>실기, 면접</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										자유곡 1곡 부르기
 										<dl>
 											<dt class="attention">특기발표</dt>
@@ -217,7 +217,7 @@
 									<td>수시</td>
 									<td>미디, 작·편곡</td>
 									<td>면접</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										자작곡 연주 또는 녹음CD 제출
 										<ol class="circle-list">
 											<li>작품 제작과정, 의도, 미디/작·편곡 능력 평가</li>
@@ -231,7 +231,7 @@
 									<td rowspan="2">정시</td>
 									<td rowspan="2">미디, 작·편곡</td>
 									<td>면접</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										자작곡 연주 또는 녹음CD 제출
 										<ol class="circle-list">
 											<li>작품 제작과정, 의도, 미디/작·편곡 능력 평가</li>
@@ -243,7 +243,7 @@
 								</tr>
 								<tr>
 									<td>이론<br>시험</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										화성학 이론시험(재즈화성학) 
 										<ol class="circle-list">
 											<li>Major, Minor Key의 Diatonic 코드/ Secondary 코드</li>
@@ -257,7 +257,7 @@
 									<td rowspan="6">수시,정시</td>
 									<td rowspan="2">공통</td>
 									<td>면접</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										<ul>
 											<li>전공 관련 구술시험,</li>
 											<li>
@@ -271,7 +271,7 @@
 								</tr>
 								<tr>
 									<td>유의사항</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										<ul>
 											<li>악보 3부 제출</li>
 											<li>
@@ -306,7 +306,7 @@
 									<td>수시,정시</td>
 									<td>-</td>
 									<td>면접</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										<dl>
 											<dt>8*10인치 사진10장 제출</dt>
 											<dd>흑/백 구분 없음</dd>
@@ -322,7 +322,7 @@
 									<td>정시</td>
 									<td>-</td>
 									<td>실기</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										아래 2가지 中 택1
 										<ol class="number-list">
 											<li>
@@ -347,7 +347,7 @@
 									<td>수시 2차</td>
 									<td>-</td>
 									<td>실기</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										아래 3가지 中 택1
 										<ol class="number-list">
 											<li>
@@ -377,7 +377,7 @@
 									<td>정시</td>
 									<td>-</td>
 									<td>실기</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										아래 4가지 中 택1
 										<ol class="number-list">
 											<li>
@@ -413,7 +413,7 @@
 									<td>수시</td>
 									<td>-</td>
 									<td>면접</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										<ol class="number-list">
 											<li>전시디자인을 전공하려는 이유는?</li>
 											<li>전시디자인과에서 기대하는 것들은?</li>
@@ -426,7 +426,7 @@
 									<td>정시</td>
 									<td>-</td>
 									<td>실기</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										<dl>
 											<dt>소묘</dt>
 											<dd>사물 개체 표현 (사물 2~3개)</dd>
@@ -442,7 +442,7 @@
 									<td>수시,정시</td>
 									<td>-</td>
 									<td>면접</td>
-									<td class="table-style-padding">
+									<td class="table-padding">
 										<ol class="number-list">
 											<li>학과 지원 동기는?</li>
 											<li>매니저로서의 계획은?</li>

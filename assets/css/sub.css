@@ -55,13 +55,12 @@
 }
 
 /* 공통 content-list */
-.content-list { }
-.content-list li { 
+.content-list > li { 
 	background-image:url('/assets/images/sub/r_arrow_l.png');
 	background-size:5px auto;
 	background-repeat:no-repeat;
 	background-position:0 7px;
-	padding-left:20px;
+	padding-left:15px;
 	font-size:15px; 
 	color:#666;
 	line-height:24px;
@@ -239,12 +238,13 @@
 }
 .arrow-list li:last-child:after {
 	content:"]";
+	padding:0;
 }
 
 /* dl-inline */
 .dl-inline {
 	text-align:left;
-	display:inline;
+	display:inline-block;
 	margin-bottom:0;
 }
 .dl-inline dt {
@@ -266,16 +266,9 @@
 .table-align-center {
 	text-align:center;
 }
-.table-padding-one {
+.table-padding {
 	padding:30px 14px !important;
 }
-.table-padding-two {
-	padding:40px 14px !important;
-}
-.table-padding-three {
-	padding:50px 14px !important;
-}
-
 .table-wrap .table tbody tr th {
 	border-right:1px solid #ccc;
 	background-color:#f9f9f9;
@@ -283,4 +276,7 @@
 	text-align:center;
 	font-size:14px; 
 	font-weight:400;
+}
+.table-wrap .table .attention {
+	font-size:14px;
 }

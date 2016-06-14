@@ -57,7 +57,7 @@
 								</tr>
 								<tr>
 									<td colspan="2">학교생활기록부</td>
-									<td class="table-padding-two">
+									<td class="table-padding">
 										<ol class="circle-list">
 											<li>2011년 2월 이전 졸업자</li>
 											<li>온라인제공 미동의자</li>
@@ -68,7 +68,7 @@
 								</tr>
 								<tr>
 									<td colspan="2">검정고시 출신자</td>
-									<td class="table-padding-one">
+									<td class="table-padding">
 										<ol class="circle-list">
 											<li>합격증명서 1부</li>
 											<li>성적증명서 1부</li>
@@ -88,7 +88,7 @@
 								</tr>
 								<tr>
 									<td colspan="2">전문대졸 이상자</td>
-									<td  class="table-padding-one">
+									<td  class="table-padding">
 										<ol class="circle-list">
 											<li>대학 학위(예정)증명서 1부</li>
 											<li>대학 전학년 성적증명서 1부</li>
@@ -126,7 +126,7 @@
 								<tr>
 									<td rowspan="2">차상위<br>계층</td>
 									<td rowspan="2" class="table-align">복지급여<br>수급자</td>
-									<td class="table-padding-three">
+									<td class="table-padding">
 										<ol class="circle-list">
 											<li>
 												 차상위 복지급여 수급확인서
@@ -159,7 +159,7 @@
 									<td>시·군·구청/ <br>읍·면·동 주민센터</td>
 								</tr>
 								<tr>
-									<td class="table-align table-padding-three">
+									<td class="table-align table-padding">
 										<ol class="circle-list">
 											<li class="sr-only"></li>
 											<li class="after-list">
@@ -204,13 +204,16 @@
 										<dl class="dl-inline">
 											<dt>중국</dt>
 											<dd>호구부 또는<br> 친족관계공증</dd>
-											<br>
+										</dl>
+										<dl class="dl-inline">
 											<dt>몽골</dt>
 											<dd>친족관계증명서</dd>
-											<br>
+										</dl>
+										<dl class="dl-inline">
 											<dt>필리핀</dt>
 											<dd>Family Census</dd>
-											<br>
+										</dl>
+										<dl class="dl-inline">
 											<dt>태국</dt>
 											<dd>출생증명서 등</dd>
 										</dl>
@@ -277,7 +280,7 @@
 								<tr>
 									<th rowspan="3">전형료<br>반환</th>
 									<th>사유</th>
-									<td colspan="2">
+									<td colspan="2" class="table-padding">
 										<ol class="circle-list">
 											<li>입학전형에 응시한 사람이 착오로 과납한 경우 : 과납한 금액</li>
 											<li>대학의 귀책사유로 입학전형에 응시하지 못한 경우 : 납부한 입학전형료 전액</li>
@@ -294,7 +297,7 @@
 								</tr>
 								<tr>
 									<th>방법</th>
-									<td colspan="2">
+									<td colspan="2" class="table-padding">
 										<ol class="circle-list">
 											<li>
 												입학전형 관련 수입·지출에 따른 잔액을 해당 학년도 4월 30일까지 입학전형에 응시한 사람이 납부한<br>
@@ -315,12 +318,12 @@
 								</tr>
 								<tr>
 									<th>기타</th>
-									<td colspan="2">
+									<td colspan="2" class="table-padding">
+										<dl class="dl-inline">
+											<dt>기타 대학의 전형료 반환 기준표</dt>
+											<dd>증빙서류 제출 시</dd>
+										</dl>
 										<ol class="circle-list">
-											<dl class="dl-inline">
-												<dt>기타 대학의 전형료 반환 기준표</dt>
-												<dd>증빙서류 제출 시</dd>
-											</dl>
 											<li>
 												<dl class="dl-inline">
 													<dt>원서접수 마감 전</dt>
@@ -344,72 +347,100 @@
 								</tr>
 							</tbody>
 						</table>
+						<p class="attention">
+							제출서류는 모집시기별 원서접수 마감시간까지 제출해야 하며, 제출한 서류는 일체 반환하지 않습니다. [마감일 우체국 소인까지 유효함] 
+						</p>
+						<p class="attention">
+							<b>제출서류 발급일자는 원서접수 마감일 기준 1개월 이내</b>여야 하며, 추후 위·변조 사실이 발견될 경우 입학이 취소됩니다.
+						</p>
+						<p class="attention">개명을 한 수험생은 <b>'주민등록초본'</b>을 제출해야 합니다.</p>
+						<p class="attention">서류 미제출자는 불합격 처리합니다.</p>
 					</div>
+				</div>
+			</section>
+			<section class="successful">
+				<div class="section-header">
+					<hr />
+					<h3>합격자 발표 및 환불</h3>
+				</div>
+				<div class="section-content">
+					<h4>합격자 발표 및 등록</h4>
+					<ul class="content-list">
+						<li>
+							합격자는 문자전송, 홈페이지 조회
+							<ul class="arrow-list">
+								<li>대학 홈페이지</li>
+								<li>입학안내</li>
+								<li>합격자 발표</li>
+							</ul>
+						</li>
+						<li>합격여부 미확인 또는 연락두절로 인한 불이익에 대해서는 추후 이의제기를 할 수 없습니다.</li>
+						<li>대학에서 정한 등록기간 내에 등록금 (지로납부, 가상계좌 이체)을 납부하지 않으면 입학을 할 수 없습니다.</li>
+					</ul>
+					<h4>충원합격자 발표 및 등록</h4>
+					<ul class="content-list">
+						<li>예비후보자는 모집정원 20% 이내에서 발표하고, 합격자 중 미등록이나 합격포기로 결원이 생길 경우 예비후보에서 충원합니다.</li>
+						<li>충원합격자는 대학에서 지정한 기간 내에 등록을 완료해야 하고, 미등록 시 다음 예비후보에서 충원합니다.</li>
+						<li>충원합격자는 전화, 문자전송 등으로 통보하며, 연락두절로 인한 불이익에 대해서는 추후 이의제기를 할 수 없습니다.</li>
+						<li>
+							합격통보 및 등록 일정표
+							<div class="table-wrap">
+								<table class="table table-border">
+									<colgroup>
+										<col style="width: 154px"/>
+										<col style="width: 700px"/>
+										<col style="width: 316px"/>
+									</colgroup>
+									<thead>
+										<tr>
+											<th>모집시기</th>
+											<th>충원합격 발표 및 등록기간</th>
+											<th>비고</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>수시모집</td>
+											<td>2015.12.15 ~ 12.23. 16:00까지</td>
+											<td>개별연락 및 홈페이지 공지</td>
+										</tr>
+										<tr>
+											<td>정시모집</td>
+											<td>2016. 2. 3 ~   2. 27. 18:00까지</td>
+											<td>개별연락 및 홈페이지 공지</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</li>
+					</ul>
+					<h4>등록납부금(예치금) 반환</h4>
+					<ul class="content-list">
+						<li>입학을 포기하고자 한 경우 '대학등록금에 관한 규칙'에 의거 반환합니다.</li>
+						<li>등록금환불신청서(대학 양식)을 작성하여 담당부서에 제출해야 합니다.</li>
+					</ul>
+				</div>
+			</section>
+			<section class="scholarship">
+				<div class="section-header">
+					<hr />
+					<h3>장학제도</h3>
+				</div>
+				<div class="section-content">
+					<h4>내부 장학금</h4>
+					<ul class="content-list">
+						<li>신입생 성적우수, 성적우수, 일반(공로), 근로, 가족, 국가유공자 등 다수 </li>
+					</ul>
+					<h4>외부 장학금</h4>
+					<ul class="content-list">
+						<li>
+							한국지도자육성장학재단, 아산사회복지재단, 주심장학재단, 농어촌희망재단, 전북은행장학문화재단, (재)연강재단, 국가장학금, 국가근로, 총동창회 등 다수
+						</li>
+					</ul>
 				</div>
 			</section>
 		</div>
 	</main>
-<style>
-/* submission */
-.recruitment.submission .submission-document .table-wrap .table {margin-bottom:20px; }
-.recruitment.submission .submission-document .table-wrap .table tbody tr td:first-child {
-	text-align:center;
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list {
-	text-align:left;
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list li {
-	line-height:20px;
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list li a {
-	color:#666;
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list li a:hover {
-	text-decoration:underline;
-	color:#666;
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list .after-list {
-	position:relative !important;
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list .after-list:after {
-	position:absolute;
-	top:0;
-	left:205px;
-	content:":";
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td .attention:before {
-	padding-right:3px;
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td h4:first-child {
-	margin-top:0;
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td h4 {
-	margin:0;
-	font-size:14px; 
-	color:#666;
-	font-weight:300;
-	margin-top:30px;
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td h4:before {
-	content:"[";
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr td h4:after {
-	content:"]";
-}
-.recruitment.submission .submission-document .table-wrap .table tbody tr:last-child {
-	height:586px;
-}
-.recruitment.submission .submission-document .table-wrap .attention {
-	line-height:24px;
-}
-.recruitment.submission .submission-document .table-wrap .attention b {
-	color:#333;
-	font-weight:400;
-}
-
-
-
-</style>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>

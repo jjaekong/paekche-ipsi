@@ -302,6 +302,9 @@
 .recruitment.submission .submission-document .table-wrap .table tbody tr:last-child td .dl-inline {
 	display:inline-block;
 }
+.recruitment.submission .submission-document .table-wrap .table tbody tr:nth-of-type(9) td .dl-inline {
+	display:inline-block;
+}
 .recruitment.submission .table-wrap .attention {
 	line-height:24px;
 }
@@ -348,6 +351,9 @@
 }
 .recruitment.submission .successful .section-content .content-list .table-wrap {
 	margin:10px 0 40px 0 ;
+}
+.recruitment.submission .successful .section-content .content-list li .table-wrap .table {
+	text-align:center;
 }
 .recruitment.submission .scholarship .section-content h4 { 
 	margin-top:0;

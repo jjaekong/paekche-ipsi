@@ -36,6 +36,7 @@
 	font-weight:400;
 	color:#333;
 	font-size:14px;
+	vertical-align:middle;
 }
 .table-wrap .table thead th:last-child {
 	border-right:0; 
@@ -244,7 +245,6 @@
 /* dl-inline */
 .dl-inline {
 	text-align:left;
-	display:inline-block;
 	margin-bottom:0;
 }
 .dl-inline dt {
@@ -280,3 +280,4 @@
 .table-wrap .table .attention {
 	font-size:14px;
 }
+

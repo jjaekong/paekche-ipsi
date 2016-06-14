@@ -1,0 +1,52 @@
+/* tabmenu nav-pills */
+.schedule.recruit-schedule .container {
+	padding-bottom:140px;
+}
+.schedule.recruit-schedule .schedule .section-content .nav-pills li:first-child {
+	border-left:1px solid #ccc !important;
+}
+.schedule.recruit-schedule .schedule .section-content .nav-pills li a {
+	border: 1px solid #dfdfdf;
+	border-left:0;
+	border-radius:0;
+	font-size:14px; 
+	color:#333;
+	text-decoration:none;
+}
+.schedule.recruit-schedule .schedule .section-content .nav-pills li {
+	background-color:#f9f9f9;
+	width:391px;
+	height:44px;
+}
+.schedule.recruit-schedule .schedule .section-content .nav-pills .active a {
+	background-color:#685b55;
+	border-radius:0;
+	color:#fff;
+	font-size:14px; 
+}
+.schedule.recruit-schedule .schedule .section-content .tab-content {
+	padding-top:40px;
+}
+
+/* tab-content table 공통 */
+.schedule.recruit-schedule .schedule .section-content .tab-content .table-wrap .table {
+	text-align:center;
+}
+.schedule.recruit-schedule .schedule .section-content .tab-content .tab-1 .table-wrap .table tbody tr td .tel {
+	font-size:14px; 
+	color:#666;
+}
+.schedule.recruit-schedule .schedule .section-content .tab-content .table-wrap .table tbody tr td .tel a {
+	color:#666;
+}
+.schedule.recruit-schedule .schedule .section-content .tab-content .table-wrap .table tbody tr td .tel a:hover {
+	color:#666;
+}
+.schedule.recruit-schedule .schedule .section-content .tab-content .table-wrap .table tbody tr td .tel:before {
+	content:"☎";
+	padding:0 5px;
+}
+.point .section-content .content-list li b {
+	color:#333;
+	font-weight:400;
+}

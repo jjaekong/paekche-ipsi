@@ -366,3 +366,115 @@
 	content:"*";
 	padding-right:5px;
 }
+
+
+/* star */
+.information.star .container .section-content .star-wrap {
+	position: relative; 
+}
+.information.star .container .section-content .star-wrap .star-view {
+	margin: 0 auto 35px;
+	width: 540px;
+	height: 620px; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure img {
+	width: 540px;
+	height: 540px;
+	border-radius: 50%; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption {
+	margin-top: 25px; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl {
+	font-size: 16px;
+	color: #333;
+	line-height: 24px;
+	text-align: center; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dt, .information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dd {
+	display: inline-block; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dt {
+	font-weight: normal; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dt:after {
+	padding-left: 3px;
+	content: '/'; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dd.br {
+	display: block;
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dd:nth-of-type(3):after {
+	padding-left: 3px;
+	content: '/'; 
+}
+.information.star .container .section-content .star-wrap .star-view .controls a {
+	position: absolute;
+	top: 255px; 
+}
+.information.star .container .section-content .star-wrap .star-view .controls a.prev {
+	left: 75px; 
+}
+.information.star .container .section-content .star-wrap .star-view .controls a.next {
+	right: 75px; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul {
+	width:869px;
+	margin:0 auto;
+	overflow: hidden; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li {
+	float: left;
+	margin-right: 23px;
+	margin-bottom: 55px;
+	width: 200px; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li:nth-of-type(4n) {
+	margin-right: 0; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a {
+	display: block;
+	text-decoration: none; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a:hover, .information.star-list .container .section-content .star-wrap .star-list > ul > li a:focus {
+	opacity: .9; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a figure img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a figure figcaption {
+	margin-top: 15px; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a figure figcaption dl {
+	font-size: 16px;
+	color: #333;
+	text-align: center; }
+.information.star .container .section-content .star-wrap .star-list > ul > li a figure figcaption dl dt, .information.star .container .section-content .star-wrap .star-list > ul > li a figure figcaption dl dd {
+	display: inline-block;
+	font-weight: normal; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a figure figcaption dl dt:after {
+	padding-left: 3px;
+	content: '/'; 
+}
+.information.star .container .section-content .star-wrap .paging {
+	text-align:center;
+	position: relative; 
+}
+.information.star .container .section-content .star-wrap .paging .pagination {
+	margin-top: 10px;
+	margin-bottom: 100px; 
+}
+.information.star .container .section-content .star-wrap .paging .btn-area {
+	margin-top: 0 !important; 
+}
+.information.star .container .section-content .star-wrap .paging .btn-area p .btn-pink {
+	position: absolute;
+	top: 0;
+	right: 0; 
+	width:90px;
+	height:30px;
+	line-height:28px;
+}

@@ -26,7 +26,7 @@
 			</ol>
 		</div>
 	</div>
-	<main id="content" class="information faq">
+	<main id="content" class="information faq-all">
 		<section class="container">
 			<div class="section-header">
 				<hr />
@@ -34,7 +34,7 @@
 			</div>
 			<div class="section-content">
 				<ul>
-					<li><a href="/information/faq.php">전체</a></li>
+					<li><a href="/information/faq_all.php">전체</a></li>
 					<li><a href="/information/faq.php">입시</a></li>
 				</ul>
 				<div class="panel-group faq-list" id="faq">
@@ -42,7 +42,7 @@
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-1">
-									<i>Q</i>수능성적 반영하지 않음2
+									<i>Q</i>수능성적 반영하지 않음
 								</a>
 							</h4>
 						</div>
@@ -58,7 +58,7 @@
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-2" class="collapsed">
-									<i>Q</i>학년별 내신 반영 비율/내신성적산출2
+									<i>Q</i>학년별 내신 반영 비율/내신성적산출
 								</a>
 							</h4>
 						</div>
@@ -74,7 +74,7 @@
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-3" class="collapsed">
-									<i>Q</i>과목반영(음악/미술 포함)2
+									<i>Q</i>과목반영(음악/미술 포함)
 								</a>
 							</h4>
 						</div>
@@ -90,7 +90,7 @@
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-4" class="collapsed">
-									<i>Q</i>수능성적 반영하지 않음2
+									<i>Q</i>수능성적 반영하지 않음
 								</a>
 							</h4>
 						</div>
@@ -106,7 +106,7 @@
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-5" class="collapsed">
-									<i>Q</i>학년별 내신 반영 비율/내신성적산출2
+									<i>Q</i>학년별 내신 반영 비율/내신성적산출
 								</a>
 							</h4>
 						</div>
@@ -122,7 +122,7 @@
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-6" class="collapsed">
-									<i>Q</i>과목반영(음악/미술 포함)2
+									<i>Q</i>과목반영(음악/미술 포함)
 								</a>
 							</h4>
 						</div>
@@ -138,7 +138,7 @@
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-7" class="collapsed">
-									<i>Q</i>수능성적 반영하지 않음2
+									<i>Q</i>수능성적 반영하지 않음
 								</a>
 							</h4>
 						</div>
@@ -154,7 +154,7 @@
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-8" class="collapsed">
-									<i>Q</i>학년별 내신 반영 비율/내신성적산출2
+									<i>Q</i>학년별 내신 반영 비율/내신성적산출
 								</a>
 							</h4>
 						</div>
@@ -170,7 +170,7 @@
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-9" class="collapsed">
-									<i>Q</i>과목반영(음악/미술 포함)2
+									<i>Q</i>과목반영(음악/미술 포함)
 								</a>
 							</h4>
 						</div>
@@ -186,7 +186,7 @@
 						<div class="panel-heading">
 							<h4 class="panel-title">
 								<a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-10" class="collapsed">
-									<i>Q</i>수능성적 반영하지 않음2
+									<i>Q</i>수능성적 반영하지 않음
 								</a>
 							</h4>
 						</div>

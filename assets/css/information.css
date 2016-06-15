@@ -215,6 +215,82 @@
 }
 
 
+/* faq_all */
+.information.faq-all .container { 
+	padding-bottom:140px;
+}
+.information.faq-all .container .section-content ul {
+	text-align:center;
+	margin-bottom:40px;
+}
+.information.faq-all .container .section-content ul li:first-child {
+	margin-right:30px;
+}
+.information.faq-all .container .section-content ul li {
+	background-image:url('/assets/images/information/faq_bg.png');
+	background-size:102px auto;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	text-align:center;
+	display:inline-block;
+	width:102px;
+	height:114px;
+	padding-top:45px;
+}
+.information.faq-all .container .section-content ul li a {
+	color:#fff;
+	font-size:18px;
+}
+.information.faq-all .container .section-content .faq-list {
+	border-top:2px solid #555;
+}
+.information.faq-all .container .section-content .faq-list .panel {
+	border-radius:0;
+	margin:0;
+	border-right:0;
+	border-left:0;
+	border-top:0;
+	box-shadow:none;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-heading {
+	padding:0;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-heading .panel-title a {
+	display:block;
+	padding:10px 25px;
+	background-image:url('/assets/images/information/ico_menu_up.png');
+	background-repeat:no-repeat;
+	background-position:97% 50%;
+	font-size:14px;
+
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-heading .panel-title a.collapsed {
+	background-image:url('/assets/images/information/ico_menu_down.png');
+	background-position:97% 50%;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-title a i {
+	font-size:14px;
+	color:#333;
+	padding-right:25px;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-body {
+	position:relative;
+	padding:20px 62px;
+	line-height:24px;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-body i {
+	position:absolute;
+	top:20px;
+	left:25px;
+	font-size:14px;
+	color:#d22d36;
+	font-weight:bold;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-body .star:before {
+	content:"*";
+	padding-right:5px;
+}
+
 /* faq */
 .information.faq .container { 
 	padding-bottom:140px;

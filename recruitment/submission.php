@@ -20,7 +20,12 @@
 				<li class="active dropdown">
 					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">제출서류 및 전형료<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">제출서류 및 전형료</a></li>
+						<li><a href="/recruitment/schedule/recruit_schedule.php">전형일정</a></li>
+						<li><a href="/recruitment/schedule/department.php">모집학과 및 모집인원</a></li>
+						<li><a href="/recruitment/qualification.php">응시자격</a></li>
+						<li><a href="/recruitment/selection.php">전형방법및 선발원칙</a></li>
+						<li><a href="/recruitment/interview_test.php">실기/면접시험 방법</a></li>
+						<li><a href="/recruitment/submission.php">제출서류 및 전형료</a></li>
 					</ul>
 				</li>
 			</ol>

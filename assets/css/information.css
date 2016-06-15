@@ -478,3 +478,104 @@
 	height:30px;
 	line-height:28px;
 }
+
+
+/* ipsidata */
+.information.ipsidata .container {
+	padding-bottom:140px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody tr th {
+	padding:17px 0 0 40px;
+	vertical-align:top;
+	text-align:left;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody tr th label {
+	font-weight:400;
+	color:#333;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody tr td input {
+	width:295px;
+	height:30px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-tel td select {
+	width:85px;
+	height:30px;
+	font-size:14px;
+	margin-right:5px;
+	text-align-last:center;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-tel td input {
+	width:85px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-tel td input:nth-of-type(1) {
+	margin:0 5px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-tel td input:last-child {
+	margin-left:5px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-phone td select {
+	width:85px;
+	height:30px;
+	font-size:14px;
+	margin-right:5px;
+	text-align-last:center;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-phone td input {
+	width:85px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-phone td input:nth-of-type(1) {
+	margin:0 5px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-phone td input:last-child {
+	margin-left:5px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-addr td .btn-white {
+	width:94px;
+	height:30px;
+	color:#666;
+	display:inline-block;
+	border:1px solid #ccc;
+	line-height: 28px;
+	text-align: center;
+	margin-left:10px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-addr td input:nth-of-type(1) {
+	width:190px;
+	display:inline;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-addr td input {
+	width:510px;
+	display:block;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-addr td input:nth-of-type(2) {
+	margin:10px 0;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .high-school td label {
+	font-size:14px;
+	color:#666;
+	font-weight:300;
+	margin-left:10px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .high-school td label:nth-of-type(1) {
+	margin-left:30px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .high-school td input[type=radio] {
+	width:auto;
+	height:auto;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .departments select {
+	width:210px;
+	height:30px;
+	margin-right:10px;
+	text-align-last:center;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .departments select:last-child {
+	margin-right:0;
+}
+.information.ipsidata .container .section-content .table-wrap .btn-area {
+	margin:50px 0 0 0;
+	text-align:center;
+}
+.information.ipsidata .container .section-content .table-wrap .btn-area .btn-pink {
+	margin-right:10px;
+}

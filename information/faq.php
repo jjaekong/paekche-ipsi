@@ -20,7 +20,13 @@
 				<li class="active dropdown">
 					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FAQ<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">경쟁률</a></li>
+						<li><a href="/information/notice.php">공지사항</a></li>
+						<li><a href="/information/faq_all.php">FAQ</a></li>
+						<li><a href="/information/competition.php">경쟁률</a></li>
+						<li><a href="/information/data.php">자료실</a></li>
+						<li><a href="/information/star_list.php">백제스타</a></li>
+						<li><a href="/information/grade.php">내신성적산출</a></li>
+						<li><a href="/information/ipsidata.php">입시자료신청</a></li>
 					</ul>
 				</li>
 			</ol>
@@ -34,7 +40,7 @@
 			</div>
 			<div class="section-content">
 				<ul>
-					<li><a href="/information/faq.php">전체</a></li>
+					<li><a href="/information/faq_all.php">전체</a></li>
 					<li><a href="/information/faq.php">입시</a></li>
 				</ul>
 				<div class="panel-group faq-list" id="faq">

@@ -15,12 +15,17 @@
 		<div class="container">
 			<ol class="breadcrumb">
 				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-				<li><a href="#">입시정보</a></li>
+				<li><a href="#">모집요강</a></li>
 				<!-- li class="active">수업자료실</li -->
 				<li class="active dropdown">
 					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">전형일정<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">제출서류 및 전형료</a></li>
+						<li><a href="/recruitment/schedule/recruit_schedule.php">전형일정</a></li>
+						<li><a href="/recruitment/schedule/department.php">모집학과 및 모집인원</a></li>
+						<li><a href="/recruitment/qualification.php">응시자격</a></li>
+						<li><a href="/recruitment/selection.php">전형방법및 선발원칙</a></li>
+						<li><a href="/recruitment/interview_test.php">실기/면접시험 방법</a></li>
+						<li><a href="/recruitment/submission.php">제출서류 및 전형료</a></li>
 					</ul>
 				</li>
 			</ol>

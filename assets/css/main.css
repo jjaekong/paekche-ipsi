@@ -1,0 +1,423 @@
+.primary {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  height: 1020px;
+  background-image: url(/assets/images/main/bg_library.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .primary .departs {
+    position: relative;
+    height: 840px; }
+    .primary .departs .depart-list figure img {
+      width: 570px;
+      height: 680px; }
+    .primary .departs .depart-list figure figcaption {
+      position: relative;
+      height: 160px;
+      background-color: #1a1a1a; }
+      .primary .departs .depart-list figure figcaption h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 143px;
+        margin-left: 25px;
+        padding-top: 30px;
+        font-size: 35px;
+        color: #fff;
+        font-weight: 300; }
+        .primary .departs .depart-list figure figcaption h3 small {
+          font-size: 16px;
+          color: #fff; }
+      .primary .departs .depart-list figure figcaption a {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        width: 143px;
+        height: 160px;
+        background-color: #d22d36;
+        font-size: 22px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none; }
+        .primary .departs .depart-list figure figcaption a:before {
+          display: block;
+          margin: 35px auto 0;
+          content: url(/assets/images/main/ico_newwin.png); }
+    .primary .departs .depart-list nav {
+      position: absolute;
+      bottom: 160px;
+      width: 100%;
+      height: 70px;
+      background-color: rgba(26, 26, 26, 0.6);
+      z-index: 1; }
+      .primary .departs .depart-list nav p:nth-of-type(1) {
+        float: left;
+        padding: 25px;
+        width: 427px;
+        height: 70px; }
+        .primary .departs .depart-list nav p:nth-of-type(1) .btn-all {
+          color: #fff;
+          font-size: 16px;
+          line-height: 20px; }
+          .primary .departs .depart-list nav p:nth-of-type(1) .btn-all:before {
+            position: relative;
+            top: 3px;
+            margin-right: 7px;
+            content: url(/assets/images/main/ico_th.png); }
+      .primary .departs .depart-list nav p:nth-of-type(2) {
+        float: right;
+        width: 143px;
+        height: 70px; }
+        .primary .departs .depart-list nav p:nth-of-type(2) a {
+          float: left;
+          display: block;
+          width: 71px;
+          height: 70px;
+          background-color: rgba(255, 255, 255, 0.03); }
+          .primary .departs .depart-list nav p:nth-of-type(2) a img {
+            display: block;
+            margin: 22px auto 0; }
+    .primary .departs .depart-all {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #1a1a1a;
+      z-index: 1; }
+      .primary .departs .depart-all ul {
+        overflow: hidden; }
+        .primary .departs .depart-all ul li {
+          float: left;
+          width: 142px;
+          height: 168px; }
+          .primary .departs .depart-all ul li:nth-of-type(odd) {
+            width: 143px; }
+          .primary .departs .depart-all ul li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding-top: 50px;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            border-left: 1px solid rgba(255, 255, 255, 0.08);
+            text-decoration: none; }
+            .primary .departs .depart-all ul li a:hover, .primary .departs .depart-all ul li a:focus {
+              background-color: #ffd217;
+              border-color: #ffd217;
+              color: #333; }
+            .primary .departs .depart-all ul li a:before {
+              display: block;
+              height: 50px; }
+          .primary .departs .depart-all ul li:nth-of-type(4n+1) a {
+            border-left: 0; }
+          .primary .departs .depart-all ul li:nth-of-type(1) a, .primary .departs .depart-all ul li:nth-of-type(2) a, .primary .departs .depart-all ul li:nth-of-type(3) a, .primary .departs .depart-all ul li:nth-of-type(4) a {
+            border-top: 0; }
+          .primary .departs .depart-all ul li:nth-of-type(1) a:before {
+            content: url(/assets/images/main/ico_depart_1.png); }
+          .primary .departs .depart-all ul li:nth-of-type(1) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(1) a:focus:before {
+            content: url(/assets/images/main/ico_depart_1_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(2) a:before {
+            content: url(/assets/images/main/ico_depart_2.png); }
+          .primary .departs .depart-all ul li:nth-of-type(2) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(2) a:focus:before {
+            content: url(/assets/images/main/ico_depart_2_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(3) a:before {
+            content: url(/assets/images/main/ico_depart_3.png); }
+          .primary .departs .depart-all ul li:nth-of-type(3) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(3) a:focus:before {
+            content: url(/assets/images/main/ico_depart_3_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(4) a:before {
+            content: url(/assets/images/main/ico_depart_4.png); }
+          .primary .departs .depart-all ul li:nth-of-type(4) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(4) a:focus:before {
+            content: url(/assets/images/main/ico_depart_4_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(5) a:before {
+            content: url(/assets/images/main/ico_depart_5.png); }
+          .primary .departs .depart-all ul li:nth-of-type(5) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(5) a:focus:before {
+            content: url(/assets/images/main/ico_depart_5_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(6) a:before {
+            content: url(/assets/images/main/ico_depart_6.png); }
+          .primary .departs .depart-all ul li:nth-of-type(6) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(6) a:focus:before {
+            content: url(/assets/images/main/ico_depart_6_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(7) a:before {
+            content: url(/assets/images/main/ico_depart_7.png); }
+          .primary .departs .depart-all ul li:nth-of-type(7) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(7) a:focus:before {
+            content: url(/assets/images/main/ico_depart_7_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(8) a:before {
+            content: url(/assets/images/main/ico_depart_8.png); }
+          .primary .departs .depart-all ul li:nth-of-type(8) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(8) a:focus:before {
+            content: url(/assets/images/main/ico_depart_8_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(9) a:before {
+            content: url(/assets/images/main/ico_depart_9.png); }
+          .primary .departs .depart-all ul li:nth-of-type(9) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(9) a:focus:before {
+            content: url(/assets/images/main/ico_depart_9_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(10) a:before {
+            content: url(/assets/images/main/ico_depart_10.png); }
+          .primary .departs .depart-all ul li:nth-of-type(10) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(10) a:focus:before {
+            content: url(/assets/images/main/ico_depart_10_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(11) a:before {
+            content: url(/assets/images/main/ico_depart_11.png); }
+          .primary .departs .depart-all ul li:nth-of-type(11) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(11) a:focus:before {
+            content: url(/assets/images/main/ico_depart_11_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(12) a:before {
+            content: url(/assets/images/main/ico_depart_12.png); }
+          .primary .departs .depart-all ul li:nth-of-type(12) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(12) a:focus:before {
+            content: url(/assets/images/main/ico_depart_12_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(13) a:before {
+            content: url(/assets/images/main/ico_depart_13.png); }
+          .primary .departs .depart-all ul li:nth-of-type(13) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(13) a:focus:before {
+            content: url(/assets/images/main/ico_depart_13_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(14) a:before {
+            content: url(/assets/images/main/ico_depart_14.png); }
+          .primary .departs .depart-all ul li:nth-of-type(14) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(14) a:focus:before {
+            content: url(/assets/images/main/ico_depart_14_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(15) a:before {
+            content: url(/assets/images/main/ico_depart_15.png); }
+          .primary .departs .depart-all ul li:nth-of-type(15) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(15) a:focus:before {
+            content: url(/assets/images/main/ico_depart_15_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(16) a:before {
+            content: url(/assets/images/main/ico_depart_16.png); }
+          .primary .departs .depart-all ul li:nth-of-type(16) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(16) a:focus:before {
+            content: url(/assets/images/main/ico_depart_16_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(17) a:before {
+            content: url(/assets/images/main/ico_depart_17.png); }
+          .primary .departs .depart-all ul li:nth-of-type(17) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(17) a:focus:before {
+            content: url(/assets/images/main/ico_depart_17_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(18) a:before {
+            content: url(/assets/images/main/ico_depart_18.png); }
+          .primary .departs .depart-all ul li:nth-of-type(18) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(18) a:focus:before {
+            content: url(/assets/images/main/ico_depart_18_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(19) a:before {
+            content: url(/assets/images/main/ico_depart_19.png); }
+          .primary .departs .depart-all ul li:nth-of-type(19) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(19) a:focus:before {
+            content: url(/assets/images/main/ico_depart_19_black.png); }
+          .primary .departs .depart-all ul li:nth-of-type(20) a:before {
+            content: url(/assets/images/main/ico_depart_20.png); }
+          .primary .departs .depart-all ul li:nth-of-type(20) a:hover:before, .primary .departs .depart-all ul li:nth-of-type(20) a:focus:before {
+            content: url(/assets/images/main/ico_depart_20_black.png); }
+      .primary .departs .depart-all .btn-close {
+        float: right;
+        margin-top: 10px;
+        padding-left: 30px;
+        color: #fff;
+        font-size: 16px;
+        background-image: url(/assets/images/main/ico_close.gif);
+        background-repeat: no-repeat;
+        line-height: 21px; }
+  .primary .schedule {
+    margin-bottom: 30px;
+    padding-top: 25px;
+    height: 270px; }
+    .primary .schedule h3 {
+      float: left;
+      margin-top: 0;
+      margin-bottom: 0; }
+    .primary .schedule .nav-schedule {
+      float: right;
+      margin-top: 42px;
+      width: 285px; }
+      .primary .schedule .nav-schedule li {
+        padding-left: 5px; }
+        .primary .schedule .nav-schedule li a {
+          border-radius: 0;
+          background-color: rgba(255, 255, 255, 0.1);
+          color: #fff;
+          font-size: 16px; }
+        .primary .schedule .nav-schedule li.active > a, .primary .schedule .nav-schedule li.active > a:focus, .primary .schedule .nav-schedule li.active > a:hover {
+          border-color: #ffd217;
+          background-color: #ffd217;
+          color: #333; }
+    .primary .schedule .tab-content {
+      clear: both;
+      padding-top: 20px; }
+      .primary .schedule .tab-content dl {
+        overflow: hidden; }
+        .primary .schedule .tab-content dl dt {
+          float: left;
+          margin-bottom: 15px;
+          width: 105px;
+          height: 35px;
+          background-color: #ffd217;
+          text-align: center;
+          line-height: 35px;
+          font-weight: 400;
+          color: #333;
+          border-radius: 10px;
+          font-size: 16px; }
+        .primary .schedule .tab-content dl dd {
+          margin-left: 120px;
+          margin-bottom: 15px;
+          min-height: 35px;
+          line-height: 35px;
+          color: #fff;
+          font-size: 18px; }
+  .primary .consult {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    height: 160px;
+    background-color: #d5d5d5;
+    text-align: center; }
+    .primary .consult h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 26px;
+      color: #333; }
+    .primary .consult strong {
+      font-size: 40px;
+      color: #d22d36;
+      font-weight: 700; }
+      .primary .consult strong i {
+        position: relative;
+        top: -5px;
+        font-size: 30px; }
+    .primary .consult p {
+      font-size: 13px;
+      color: #333;
+      font-weight: 400; }
+  .primary .shortcuts {
+    height: 350px; }
+    .primary .shortcuts ul li {
+      margin-bottom: 30px; }
+      .primary .shortcuts ul li a {
+        display: block;
+        padding-top: 35px;
+        width: 100%;
+        height: 160px;
+        background-image: url(/assets/images/main/bg_pattern.gif);
+        text-align: center;
+        font-size: 22px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 300; }
+        .primary .shortcuts ul li a b {
+          font-weight: 400; }
+        .primary .shortcuts ul li a:before {
+          display: block;
+          margin-bottom: 10px; }
+        .primary .shortcuts ul li a:hover, .primary .shortcuts ul li a:focus {
+          background-image: none;
+          background-color: #ffd318;
+          color: #474330; }
+      .primary .shortcuts ul li:nth-of-type(3), .primary .shortcuts ul li:nth-of-type(4) {
+        margin-bottom: 0; }
+      .primary .shortcuts ul li:nth-of-type(1) a:before {
+        content: url(/assets/images/main/ico_monitor.png); }
+      .primary .shortcuts ul li:nth-of-type(1) a:hover:before, .primary .shortcuts ul li:nth-of-type(1) a:focus:before {
+        content: url(/assets/images/main/ico_monitor_black.png); }
+      .primary .shortcuts ul li:nth-of-type(2) a:before {
+        content: url(/assets/images/main/ico_docfind.png); }
+      .primary .shortcuts ul li:nth-of-type(2) a:hover:before, .primary .shortcuts ul li:nth-of-type(2) a:focus:before {
+        content: url(/assets/images/main/ico_docfind_black.png); }
+      .primary .shortcuts ul li:nth-of-type(3) a:before {
+        content: url(/assets/images/main/ico_docbundle.png); }
+      .primary .shortcuts ul li:nth-of-type(3) a:hover:before, .primary .shortcuts ul li:nth-of-type(3) a:focus:before {
+        content: url(/assets/images/main/ico_docbundle_black.png); }
+      .primary .shortcuts ul li:nth-of-type(4) a:before {
+        content: url(/assets/images/main/ico_badge.png); }
+      .primary .shortcuts ul li:nth-of-type(4) a:hover:before, .primary .shortcuts ul li:nth-of-type(4) a:focus:before {
+        content: url(/assets/images/main/ico_badge_black.png); }
+
+.secondary {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  height: 530px; }
+  .secondary .btn-reg {
+    display: block;
+    padding-top: 35px;
+    width: 270px;
+    height: 160px;
+    background-image: url(/assets/images/main/bg_pattern2.gif);
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none; }
+    .secondary .btn-reg:before {
+      display: block;
+      margin-bottom: 10px; }
+    .secondary .btn-reg.reg-bill:before {
+      content: url(/assets/images/main/ico_printer.png); }
+    .secondary .btn-reg.pay-history:before {
+      content: url(/assets/images/main/ico_magglass.png); }
+    .secondary .btn-reg:hover, .secondary .btn-reg:focus {
+      background-image: none;
+      background-color: #333; }
+  .secondary .download {
+    position: relative;
+    margin-top: 30px;
+    height: 160px;
+    background-image: url(/assets/images/main/bg_pattern.gif); }
+    .secondary .download h4 {
+      padding-top: 40px;
+      margin-bottom: 0;
+      margin-left: 30px;
+      font-size: 26px;
+      color: #fff;
+      line-height: 38px; }
+      .secondary .download h4 small {
+        color: #fff; }
+    .secondary .download a {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      padding-top: 50px;
+      width: 135px;
+      height: 160px;
+      background-color: #574943;
+      text-align: center;
+      font-size: 14px;
+      color: #fff; }
+      .secondary .download a:before {
+        display: block;
+        content: url(/assets/images/main/ico_download.png); }
+  .secondary .nav-community li a {
+    height: 72px;
+    border-radius: 0;
+    line-height: 52px;
+    color: #333;
+    border: 1px solid #d6d6d6;
+    font-size: 22px; }
+  .secondary .nav-community li.active > a, .secondary .nav-community li.active > a:focus, .secondary .nav-community li.active > a:hover {
+    border-color: #ffd217;
+    background-color: #ffd217;
+    color: #333; }
+  .secondary .community-list ul {
+    padding: 20px;
+    height: 212px; }
+    .secondary .community-list ul li {
+      line-height: 44px;
+      padding-left: 20px;
+      background-image: url(/assets/images/main/ico_dot.gif);
+      background-repeat: no-repeat;
+      background-position: 0 50%; }
+      .secondary .community-list ul li a {
+        position: relative;
+        display: block;
+        padding-right: 120px;
+        font-size: 18px;
+        color: #666; }
+        .secondary .community-list ul li a p {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+        .secondary .community-list ul li a span {
+          position: absolute;
+          right: 0;
+          top: 0; }
+  .secondary .community-list .more {
+    display: inline-block;
+    width: 100%;
+    height: 66px;
+    border: 1px solid #d6d6d6;
+    font-size: 20px;
+    line-height: 64px;
+    text-align: center;
+    text-decoration: none;
+    color: #666; }
+    .secondary .community-list .more:focus, .secondary .community-list .more:hover {
+      background-color: #ffd217;
+      color: #333;
+      border-color: #ffd217; }
+
+/*# sourceMappingURL=main.css.map */

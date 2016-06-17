@@ -1,0 +1,480 @@
+.primary {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    height: 1020px; //840
+    background-image: url(/assets/images/main/bg_library.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    .departs {
+        position: relative;
+        height: 840px;
+        .depart-list {
+            figure {
+                img {
+                    width: 570px;
+                    height: 680px;
+                }
+                figcaption {
+                    position: relative;
+                    height: 160px;
+                    background-color: #1a1a1a;
+                    h3 {
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        margin-right: 143px;
+                        margin-left: 25px;
+                        padding-top: 30px;
+                        font-size: 35px;
+                        color: #fff;
+                        font-weight: 300;
+                        small {
+                            font-size: 16px;
+                            color: #fff;
+                        }
+                    }
+                    a {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        display: block;
+                        width: 143px;
+                        height: 160px;
+                        background-color: #d22d36;
+                        font-size: 22px;
+                        color: #fff;
+                        text-align: center;
+                        text-decoration: none;
+                        &:before {
+                            display: block;
+                            margin: 35px auto 0;
+                            content: url(/assets/images/main/ico_newwin.png);
+                        }
+                    }
+                }
+            }
+            nav {
+                position: absolute;
+                bottom: 160px;
+                width: 100%;
+                height: 70px;
+                background-color: rgba(#1a1a1a, .6);
+                z-index: 1;
+                p {
+                    &:nth-of-type(1) {
+                        float: left;
+                        padding: 25px;
+                        width: 427px;
+                        height: 70px;
+                        .btn-all {
+                            color: #fff;
+                            font-size: 16px;
+                            line-height: 20px;
+                            &:before {
+                                position: relative;
+                                top: 3px;
+                                margin-right: 7px;
+                                content: url(/assets/images/main/ico_th.png);
+                            }
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        float: right;
+                        width: 143px;
+                        height: 70px;
+                        a {
+                            float: left;
+                            display: block;
+                            width: 71px;
+                            height: 70px;
+                            background-color: rgba(#fff, .03);
+                            img {
+                                display: block;
+                                margin: 22px auto 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .depart-all {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #1a1a1a;
+            z-index: 1;
+            ul {
+                overflow: hidden;
+                li {
+                    float: left;
+                    width: 142px;
+                    height: 168px;
+                    &:nth-of-type(odd) {
+                        width: 143px;
+                    }
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        padding-top: 50px;
+                        color: #fff;
+                        font-size: 16px;
+                        text-align: center;
+                        border-top: 1px solid rgba(#fff, .08);
+                        border-left: 1px solid rgba(#fff, .08);
+                        text-decoration: none;
+                        &:hover,
+                        &:focus {
+                            background-color: #ffd217;
+                            border-color: #ffd217;
+                            color: #333;
+                        }
+                        &:before {
+                            display: block;
+                            height: 50px;
+                        }
+                    }
+                    &:nth-of-type(4n+1) {
+                        a {
+                            border-left: 0;
+                        }
+                    }
+                    &:nth-of-type(1),
+                    &:nth-of-type(2),
+                    &:nth-of-type(3),
+                    &:nth-of-type(4) {
+                        a {
+                            border-top: 0;
+                        }
+                    }
+                    @for $i from 1 through 20 {
+                        &:nth-of-type(#{$i}) a {
+                            &:before {
+                                content: url(/assets/images/main/ico_depart_#{$i}.png);
+                            }
+                            &:hover,
+                            &:focus {
+                                &:before {
+                                    content: url(/assets/images/main/ico_depart_#{$i}_black.png);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-close {
+                float: right;
+                margin-top: 10px;
+                padding-left: 30px;
+                color: #fff;
+                font-size: 16px;
+                background-image: url(/assets/images/main/ico_close.gif);
+                background-repeat: no-repeat;
+                line-height: 21px;
+            }
+        }
+    }
+    .schedule {
+        margin-bottom: 30px;
+        padding-top: 25px;
+        height: 270px;
+        //background-color: rgba(#000, .3);
+        h3 {
+            float: left;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .nav-schedule {
+            float: right;
+            margin-top: 42px;
+            width: 285px;
+            li {
+                padding-left: 5px;
+                a {
+                    border-radius: 0;
+                    background-color: rgba(#fff, .1);
+                    color: #fff;
+                    font-size: 16px;
+                }
+                &.active > a,
+                &.active > a:focus,
+                &.active > a:hover {
+                    border-color: #ffd217;
+                    background-color: #ffd217;
+                    color: #333;
+                }
+            }
+        }
+        .tab-content {
+            clear: both;
+            padding-top: 20px;
+            dl {
+                overflow: hidden;
+                dt {
+                    float: left;
+                    margin-bottom: 15px;
+                    width: 105px;
+                    height: 35px;
+                    background-color: #ffd217;
+                    text-align: center;
+                    line-height: 35px;
+                    font-weight: 400;
+                    color: #333;
+                    border-radius: 10px;
+                    font-size: 16px;
+                }
+                dd {
+                    margin-left: 120px;
+                    margin-bottom: 15px;
+                    min-height: 35px;
+                    line-height: 35px;
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+        }
+    } 
+    .consult {
+        padding-top: 20px;
+        margin-bottom: 30px;
+        height: 160px;
+        background-color: #d5d5d5;
+        text-align: center;
+        h3 {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 26px;
+            color: #333;
+        }
+        strong {
+            font-size: 40px;
+            color: #d22d36;
+            font-weight: 700;
+            i {
+                position: relative;
+                top: -5px;
+                font-size: 30px;
+            }
+        }
+        p {
+            font-size: 13px;
+            color: #333;
+            font-weight: 400;
+        }
+    }
+    .shortcuts {
+        height: 350px;
+        ul {
+            li {
+                margin-bottom: 30px;
+                a {
+                    display: block;
+                    padding-top: 35px;
+                    width: 100%;
+                    height: 160px;
+                    background-image: url(/assets/images/main/bg_pattern.gif);
+                    text-align: center;
+                    font-size: 22px;
+                    color: #fff;
+                    text-decoration: none;
+                    font-weight: 300;
+                    b {
+                        font-weight: 400;
+                    }
+                    &:before {
+                        display: block;
+                        margin-bottom: 10px;
+                    }
+                    &:hover,
+                    &:focus {
+                        background-image: none;
+                        background-color: #ffd318;
+                        color: #474330;
+                    }
+                }
+                &:nth-of-type(3),
+                &:nth-of-type(4) {
+                    margin-bottom: 0;
+                }
+                &:nth-of-type(1) a {
+                    &:before {
+                        content: url(/assets/images/main/ico_monitor.png);
+                    }
+                    &:hover,
+                    &:focus {
+                        &:before {
+                            content: url(/assets/images/main/ico_monitor_black.png);
+                        }
+                    }
+                }
+                &:nth-of-type(2) a {
+                    &:before {
+                        content: url(/assets/images/main/ico_docfind.png);
+                    }
+                    &:hover,
+                    &:focus {
+                        &:before {
+                            content: url(/assets/images/main/ico_docfind_black.png);
+                        }
+                    }
+                }
+                &:nth-of-type(3) a {
+                    &:before {
+                        content: url(/assets/images/main/ico_docbundle.png);
+                    }
+                    &:hover,
+                    &:focus {
+                        &:before {
+                            content: url(/assets/images/main/ico_docbundle_black.png);
+                        }
+                    }
+                }
+                &:nth-of-type(4) a {
+                    &:before {
+                        content: url(/assets/images/main/ico_badge.png);
+                    }
+                    &:hover,
+                    &:focus {
+                        &:before {
+                            content: url(/assets/images/main/ico_badge_black.png);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.secondary {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    height: 530px; //350
+    .btn-reg {
+        display: block;
+        padding-top: 35px;
+        width: 270px;
+        height: 160px;
+        background-image: url(/assets/images/main/bg_pattern2.gif);
+        text-align: center;
+        color: #fff;
+        font-size: 22px;
+        text-decoration: none;
+        &:before {
+            display: block;
+            margin-bottom: 10px;
+        }
+        &.reg-bill:before {
+            content: url(/assets/images/main/ico_printer.png);
+        }
+        &.pay-history:before {
+            content: url(/assets/images/main/ico_magglass.png);
+        }
+        &:hover,
+        &:focus {
+            background-image: none;
+            background-color: #333;
+        }
+    }
+    .download {
+        position: relative;
+        margin-top: 30px;
+        height: 160px;
+        background-image: url(/assets/images/main/bg_pattern.gif);
+        h4 {
+            padding-top: 40px;
+            margin-bottom: 0;
+            margin-left: 30px;
+            font-size: 26px;
+            color: #fff;
+            line-height: 38px;
+            small {
+                color: #fff;
+            }
+        }
+        a {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+            padding-top: 50px;
+            width: 135px;
+            height: 160px;
+            background-color: #574943;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            &:before {
+                display: block;
+                content: url(/assets/images/main/ico_download.png);
+            }
+        }
+    }
+    .nav-community {
+        li {
+            a {
+                height: 72px;
+                border-radius: 0;
+                line-height: 52px;
+                color: #333;
+                border: 1px solid #d6d6d6;
+                font-size: 22px;
+            }
+            &.active > a,
+            &.active > a:focus,
+            &.active > a:hover {
+                border-color: #ffd217;
+                background-color: #ffd217;
+                color: #333;
+            }
+        }
+    }
+    .community-list {
+        ul {
+            padding: 20px;
+            height: 212px;
+            li {
+                line-height: 44px;
+                padding-left: 20px;
+                background-image: url(/assets/images/main/ico_dot.gif);
+                background-repeat: no-repeat;
+                background-position: 0 50%;
+                a {
+                    position: relative;
+                    display: block;
+                    padding-right: 120px;
+                    font-size: 18px;
+                    color: #666;
+                    p {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    span {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+                }
+            }
+        }
+        .more {
+            display: inline-block;
+            width: 100%;
+            height: 66px;
+            border: 1px solid #d6d6d6;
+            font-size: 20px;
+            line-height: 64px;
+            text-align: center;
+            text-decoration: none;
+            color: #666;
+            &:focus,
+            &:hover {
+                background-color: #ffd217;
+                color: #333;
+                border-color: #ffd217;
+            }
+        }
+    }
+}

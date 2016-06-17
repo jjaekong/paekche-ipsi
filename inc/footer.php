@@ -1,3 +1,14 @@
+<nav id="quick-nav">
+    <div class="container">
+        <ul>
+            <li><a href="#">찾아오시는 길</a></li>
+            <li><a href="#">기숙사 안내</a></li>
+            <li><a href="#">통학버스 안내</a></li>
+            <li><a href="#">캠퍼스 안내</a></li>
+            <li><a href="#">사이트맵</a></li>
+        </ul>
+    </div>
+</nav>
 <footer id="footer">
     <div class="container">
         <h2><img src="/assets/images/logo_footer.png" alt="백제예술대학"></h2>

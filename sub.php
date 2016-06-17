@@ -66,6 +66,31 @@
 					</table>
 				</div>
 
+				<div class="table-wrap" style="margin:30px 0;">
+					<table class="table table-border">
+						<colgroup>
+							<col style="width: 100px"/>
+							<col style="width: 100px"/>
+							<col style="width: 100px"/>
+							<col style="width: 100px"/>
+						</colgroup>
+						<tbody>
+							<tr>
+								<th>내용</th>
+								<td>내용</td>
+								<td>내용</td>
+								<td>내용</td>
+							</tr>
+							<tr>
+								<th>내용</th>
+								<td>내용</td>
+								<td>내용</td>
+								<td>내용</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
 				<ul class="content-list" style="margin:30px 0;">
 					<li>고등학교 졸업자 또는 2016년 2월 고등학교 졸업예정자</li>
 					<li>고등학교 졸업자 또는 2016년 2월 고등학교 졸업예정자</li>

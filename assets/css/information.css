@@ -1,0 +1,581 @@
+/* notice */
+.information.notice .container .notice-list {
+	padding-bottom:140px; 
+}
+.information.notice .container .notice-list .section-header {
+	padding:63px 0 43px 0; 
+}
+.information.notice .container .notice-list .section-content .table-wrap .table {
+	border-top:2px solid #555; 
+	margin-bottom:0; 
+}
+.information.notice .container .notice-list .section-content .table-wrap .table thead {
+	background-color:#f9f9f9; 
+}
+.information.notice .container .notice-list .section-content .table-wrap .table tbody tr:last-child {
+	border-bottom:1px solid #ccc; 
+}
+.information.notice .container .notice-list .section-content .table-wrap .table thead tr {
+	height:43px; 
+}
+.information.notice .container .notice-list .section-content .table-wrap .table thead th {
+	text-align:center; 
+	font-size:14px; 
+	color:#333; 
+	border-bottom:0; 
+	vertical-align:middle;
+	border-right:0;
+	padding:0;
+}
+.information.notice .container .notice-list .section-content .table-wrap .table tbody {text-align:center; }
+.information.notice .container .notice-list .section-content .table-wrap .table tbody tr td {
+	border-right:0;
+	padding:0;
+}
+.information.notice .container .notice-list .section-content .table-wrap .table tbody tr td:nth-of-type(2) {
+	text-align:left; 
+	padding-left:20px; 
+}
+.information.notice .container .notice-list .section-content .table-wrap .table tbody tr {
+	height:43px !important; 
+}
+.information.notice .container .notice-list .section-content .table-wrap .table tbody tr td a {
+	font-size:13px; 
+	color:#666; 
+	vertical-align:middle; 
+}
+.information.notice .container .notice-list .section-content .table-wrap .table tbody tr td .point {
+	font-size:12px; 
+	color:#fff; 
+	width:50px; 
+	height:20px; 
+	background-color:#d22d36; 
+	border-radius:5px; 
+	text-align:center; 
+	display:inline-block; 
+	line-height:20px; 
+}
+.information.notice .container .notice-list .section-content .table-wrap .table tbody tr td .hwp-file {width:13px; }
+.information.notice .container .notice-list .section-content .table-wrap .table tbody tr td .jpg-file {width:16px; }
+.information.notice .container .notice-list .section-content .table-wrap .table tbody tr td .pdf-file {width:16px; }
+.information.notice .container .notice-list .paging {
+	position:relative; 
+	text-align:center; 
+}
+.information.notice .container .notice-list .btn-area {
+	position:absolute; 
+	top:20px; 
+	right:0; 
+	margin:0; 
+}
+
+
+/* data */
+.information.data .container .data-list {
+	padding-bottom:140px; 
+}
+.information.data .container .data-list .section-header {
+	padding:63px 0 43px 0; 
+}
+.information.data .container .data-list .section-content .table-wrap .table {
+	border-top:2px solid #555; 
+	margin-bottom:0; 
+}
+.information.data .container .data-list .section-content .table-wrap .table thead {
+	background-color:#f9f9f9; 
+}
+.information.data .container .data-list .section-content .table-wrap .table tbody tr:last-child {
+	border-bottom:1px solid #ccc; 
+}
+.information.data .container .data-list .section-content .table-wrap .table thead tr {
+	height:43px; 
+}
+.information.data .container .data-list .section-content .table-wrap .table thead th {
+	text-align:center; 
+	font-size:14px; 
+	color:#333; 
+	border-bottom:0; 
+	vertical-align:middle;
+	border-right:0;
+	padding:0;
+}
+.information.data .container .data-list .section-content .table-wrap .table tbody {text-align:center; }
+.information.data .container .data-list .section-content .table-wrap .table tbody tr td {
+	border-right:0;
+	padding:0;
+}
+.information.data .container .data-list .section-content .table-wrap .table tbody tr td:nth-of-type(2) {
+	text-align:left; 
+	padding-left:20px; 
+}
+.information.data .container .data-list .section-content .table-wrap .table tbody tr {
+	height:43px !important; 
+}
+.information.data .container .data-list .section-content .table-wrap .table tbody tr td a {
+	font-size:13px; 
+	color:#666; 
+	vertical-align:middle; 
+}
+.information.data .container .data-list .section-content .table-wrap .table tbody tr td .point {
+	font-size:12px; 
+	color:#fff; 
+	width:50px; 
+	height:20px; 
+	background-color:#d22d36; 
+	border-radius:5px; 
+	text-align:center; 
+	display:inline-block; 
+	line-height:20px; 
+}
+.information.data .container .data-list .section-content .table-wrap .table tbody tr td .hwp-file {width:13px; }
+.information.data .container .data-list .section-content .table-wrap .table tbody tr td .jpg-file {width:16px; }
+.information.data .container .data-list .section-content .table-wrap .table tbody tr td .pdf-file {width:16px; }
+.information.data .container .data-list .paging {
+	position:relative; 
+	text-align:center; 
+}
+.information.data .container .data-list .btn-area {
+	position:absolute; 
+	top:20px; 
+	right:0; 
+	margin:0; 
+}
+
+
+
+/* competition */
+.information.competition .container .competition-list {
+	padding-bottom:140px; 
+}
+.information.competition .container .competition-list .section-header {
+	padding:63px 0 43px 0; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table {
+	border-top:2px solid #555; 
+	margin-bottom:0; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table thead {
+	background-color:#f9f9f9; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr:last-child {
+	border-bottom:1px solid #ccc; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table thead tr {
+	height:43px; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table thead th {
+	text-align:center; 
+	font-size:14px; 
+	color:#333; 
+	border-bottom:0; 
+	vertical-align:middle;
+	border-right:0;
+	padding:0;
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody {text-align:center; }
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td {
+	border-right:0;
+	padding:0;
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td:nth-of-type(2) {
+	text-align:left; 
+	padding-left:20px; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr {
+	height:43px !important; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td a {
+	font-size:13px; 
+	color:#666; 
+	vertical-align:middle; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td .point {
+	font-size:12px; 
+	color:#fff; 
+	width:50px; 
+	height:20px; 
+	background-color:#d22d36; 
+	border-radius:5px; 
+	text-align:center; 
+	display:inline-block; 
+	line-height:20px; 
+}
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td .hwp-file {width:13px; }
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td .jpg-file {width:16px; }
+.information.competition .container .competition-list .section-content .table-wrap .table tbody tr td .pdf-file {width:16px; }
+.information.competition .container .competition-list .paging {
+	position:relative; 
+	text-align:center; 
+}
+.information.competition .container .competition-list .btn-area {
+	position:absolute; 
+	top:20px; 
+	right:0; 
+	margin:0; 
+}
+
+
+/* faq_all */
+.information.faq-all .container { 
+	padding-bottom:140px;
+}
+.information.faq-all .container .section-content ul {
+	text-align:center;
+	margin-bottom:40px;
+}
+.information.faq-all .container .section-content ul li:first-child {
+	margin-right:30px;
+}
+.information.faq-all .container .section-content ul li {
+	background-image:url('/assets/images/information/faq_bg.png');
+	background-size:102px auto;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	text-align:center;
+	display:inline-block;
+	width:102px;
+	height:114px;
+	padding-top:45px;
+}
+.information.faq-all .container .section-content ul li a {
+	color:#fff;
+	font-size:18px;
+}
+.information.faq-all .container .section-content .faq-list {
+	border-top:2px solid #555;
+}
+.information.faq-all .container .section-content .faq-list .panel {
+	border-radius:0;
+	margin:0;
+	border-right:0;
+	border-left:0;
+	border-top:0;
+	box-shadow:none;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-heading {
+	padding:0;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-heading .panel-title a {
+	display:block;
+	padding:10px 25px;
+	background-image:url('/assets/images/information/ico_menu_up.png');
+	background-repeat:no-repeat;
+	background-position:97% 50%;
+	font-size:14px;
+
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-heading .panel-title a.collapsed {
+	background-image:url('/assets/images/information/ico_menu_down.png');
+	background-position:97% 50%;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-title a i {
+	font-size:14px;
+	color:#333;
+	padding-right:25px;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-body {
+	position:relative;
+	padding:20px 62px;
+	line-height:24px;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-body i {
+	position:absolute;
+	top:20px;
+	left:25px;
+	font-size:14px;
+	color:#d22d36;
+	font-weight:bold;
+}
+.information.faq-all .container .section-content .faq-list .panel .panel-body .star:before {
+	content:"*";
+	padding-right:5px;
+}
+
+/* faq */
+.information.faq .container { 
+	padding-bottom:140px;
+}
+.information.faq .container .section-content ul {
+	text-align:center;
+	margin-bottom:40px;
+}
+.information.faq .container .section-content ul li:first-child {
+	margin-right:30px;
+}
+.information.faq .container .section-content ul li {
+	background-image:url('/assets/images/information/faq_bg.png');
+	background-size:102px auto;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	text-align:center;
+	display:inline-block;
+	width:102px;
+	height:114px;
+	padding-top:45px;
+}
+.information.faq .container .section-content ul li a {
+	color:#fff;
+	font-size:18px;
+}
+.information.faq .container .section-content .faq-list {
+	border-top:2px solid #555;
+}
+.information.faq .container .section-content .faq-list .panel {
+	border-radius:0;
+	margin:0;
+	border-right:0;
+	border-left:0;
+	border-top:0;
+	box-shadow:none;
+}
+.information.faq .container .section-content .faq-list .panel .panel-heading {
+	padding:0;
+}
+.information.faq .container .section-content .faq-list .panel .panel-heading .panel-title a {
+	display:block;
+	padding:10px 25px;
+	background-image:url('/assets/images/information/ico_menu_up.png');
+	background-repeat:no-repeat;
+	background-position:97% 50%;
+	font-size:14px;
+
+}
+.information.faq .container .section-content .faq-list .panel .panel-heading .panel-title a.collapsed {
+	background-image:url('/assets/images/information/ico_menu_down.png');
+	background-position:97% 50%;
+}
+.information.faq .container .section-content .faq-list .panel .panel-title a i {
+	font-size:14px;
+	color:#333;
+	padding-right:25px;
+}
+.information.faq .container .section-content .faq-list .panel .panel-body {
+	position:relative;
+	padding:20px 62px;
+	line-height:24px;
+}
+.information.faq .container .section-content .faq-list .panel .panel-body i {
+	position:absolute;
+	top:20px;
+	left:25px;
+	font-size:14px;
+	color:#d22d36;
+	font-weight:bold;
+}
+.information.faq .container .section-content .faq-list .panel .panel-body .star:before {
+	content:"*";
+	padding-right:5px;
+}
+
+
+/* star */
+.information.star .container .section-content .star-wrap {
+	position: relative; 
+}
+.information.star .container .section-content .star-wrap .star-view {
+	margin: 0 auto 35px;
+	width: 540px;
+	height: 620px; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure img {
+	width: 540px;
+	height: 540px;
+	border-radius: 50%; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption {
+	margin-top: 25px; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl {
+	font-size: 16px;
+	color: #333;
+	line-height: 24px;
+	text-align: center; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dt, .information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dd {
+	display: inline-block; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dt {
+	font-weight: normal; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dt:after {
+	padding-left: 3px;
+	content: '/'; 
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dd.br {
+	display: block;
+}
+.information.star .container .section-content .star-wrap .star-view ul > li figure figcaption dl dd:nth-of-type(3):after {
+	padding-left: 3px;
+	content: '/'; 
+}
+.information.star .container .section-content .star-wrap .star-view .controls a {
+	position: absolute;
+	top: 255px; 
+}
+.information.star .container .section-content .star-wrap .star-view .controls a.prev {
+	left: 75px; 
+}
+.information.star .container .section-content .star-wrap .star-view .controls a.next {
+	right: 75px; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul {
+	width:869px;
+	margin:0 auto;
+	overflow: hidden; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li {
+	float: left;
+	margin-right: 23px;
+	margin-bottom: 55px;
+	width: 200px; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li:nth-of-type(4n) {
+	margin-right: 0; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a {
+	display: block;
+	text-decoration: none; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a:hover, .information.star-list .container .section-content .star-wrap .star-list > ul > li a:focus {
+	opacity: .9; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a figure img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a figure figcaption {
+	margin-top: 15px; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a figure figcaption dl {
+	font-size: 16px;
+	color: #333;
+	text-align: center; }
+.information.star .container .section-content .star-wrap .star-list > ul > li a figure figcaption dl dt, .information.star .container .section-content .star-wrap .star-list > ul > li a figure figcaption dl dd {
+	display: inline-block;
+	font-weight: normal; 
+}
+.information.star .container .section-content .star-wrap .star-list > ul > li a figure figcaption dl dt:after {
+	padding-left: 3px;
+	content: '/'; 
+}
+.information.star .container .section-content .star-wrap .paging {
+	text-align:center;
+	position: relative; 
+}
+.information.star .container .section-content .star-wrap .paging .pagination {
+	margin-top: 10px;
+	margin-bottom: 100px; 
+}
+.information.star .container .section-content .star-wrap .paging .btn-area {
+	margin-top: 0 !important; 
+}
+.information.star .container .section-content .star-wrap .paging .btn-area p .btn-pink {
+	position: absolute;
+	top: 0;
+	right: 0; 
+	width:90px;
+	height:30px;
+	line-height:28px;
+}
+
+
+/* ipsidata */
+.information.ipsidata .container {
+	padding-bottom:140px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody tr th {
+	padding:17px 0 0 40px;
+	vertical-align:top;
+	text-align:left;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody tr th label {
+	font-weight:400;
+	color:#333;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody tr td input {
+	width:295px;
+	height:30px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-tel td select {
+	width:85px;
+	height:30px;
+	font-size:14px;
+	margin-right:5px;
+	text-align-last:center;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-tel td input {
+	width:85px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-tel td input:nth-of-type(1) {
+	margin:0 5px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-tel td input:last-child {
+	margin-left:5px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-phone td select {
+	width:85px;
+	height:30px;
+	font-size:14px;
+	margin-right:5px;
+	text-align-last:center;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-phone td input {
+	width:85px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-phone td input:nth-of-type(1) {
+	margin:0 5px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-phone td input:last-child {
+	margin-left:5px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-addr td .btn-white {
+	width:94px;
+	height:30px;
+	color:#666;
+	display:inline-block;
+	border:1px solid #ccc;
+	line-height: 28px;
+	text-align: center;
+	margin-left:10px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-addr td input:nth-of-type(1) {
+	width:190px;
+	display:inline;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-addr td input {
+	width:510px;
+	display:block;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .user-addr td input:nth-of-type(2) {
+	margin:10px 0;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .high-school td label {
+	font-size:14px;
+	color:#666;
+	font-weight:300;
+	margin-left:10px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .high-school td label:nth-of-type(1) {
+	margin-left:30px;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .high-school td input[type=radio] {
+	width:auto;
+	height:auto;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .departments select {
+	width:210px;
+	height:30px;
+	margin-right:10px;
+	text-align-last:center;
+}
+.information.ipsidata .container .section-content .table-wrap .table tbody .departments select:last-child {
+	margin-right:0;
+}
+.information.ipsidata .container .section-content .table-wrap .btn-area {
+	margin:50px 0 0 0;
+	text-align:center;
+}
+.information.ipsidata .container .section-content .table-wrap .btn-area .btn-pink {
+	margin-right:10px;
+}

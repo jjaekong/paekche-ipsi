@@ -1,0 +1,367 @@
+/* qualification */
+.recruitment.qualification .container {
+	padding-bottom:140px; 
+}
+.recruitment.qualification .container .special .section-content .table thead tr {
+	height:41px; 
+}
+.recruitment.qualification .container .special .section-content .table thead tr th {
+	font-size:14px; 
+	color:#333;
+	font-weight:300;
+}
+.recruitment.qualification .container .special .section-content .table tbody tr td:nth-of-type(1) {
+	text-align:center;  
+}
+.recruitment.qualification .container .special .section-content .table tbody tr:nth-of-type(1) td:nth-of-type(1) {
+	height:122px; 
+	vertical-align:middle; 
+}
+.recruitment.qualification .container .special .section-content .table tbody tr:nth-of-type(2) td:nth-of-type(1) {
+	text-align:left; 
+}
+.recruitment.qualification .container .special .section-content .table-wrap .attention {
+	margin-top:20px; 
+}
+.recruitment.qualification .container .outside .section-content .table {
+	margin-bottom:20px; 
+}
+.recruitment.qualification .container .outside .section-content .table tbody tr:nth-of-type(2) {
+	height:160px; 
+}
+.recruitment.qualification .container .outside .section-content .table tbody tr:nth-of-type(3) {
+	height:200px; 
+}
+.recruitment.qualification .container .outside .section-content .table tbody tr td .attention {
+	margin-top:30px; 
+	padding-left:20px; 
+	font-size:14px;
+}
+.recruitment.qualification .container .outside .section-content .table tbody tr td dl {
+	margin:26px 0;
+	font-size:14px;
+	color:#666;
+}
+.recruitment.qualification .container .outside .section-content .table tbody tr td dl dt {
+	font-weight:300;
+}
+.recruitment.qualification .container .outside .section-content .table tbody tr td dl dt:after {
+	content:":";
+	padding-left:5px;
+}
+.recruitment.qualification .container .outside .section-content .table tbody tr:nth-of-type(4) td .attention {
+	margin:0; 
+	padding:0;
+}
+
+
+/* selection */
+.recruitment.selection .container {padding-bottom:140px; }
+.recruitment.selection .table-wrap .attention:nth-of-type(1) { 
+	margin-top:20px;
+}
+.recruitment.selection .table-wrap .attention {
+	font-size:15px;
+	color:#666;
+	line-height:24px;
+}
+.recruitment.selection .selection-recruitment .table-wrap .table tbody tr:nth-of-type(7) {
+	border-bottom:1px solid #ccc; 
+}
+.recruitment.selection .selection-recruitment .table-wrap .table tbody tr td {
+	text-align:center;
+}
+.recruitment.selection .selection-recruitment .table-wrap .table tbody tr td:last-child {
+	text-align:left;
+}
+.recruitment.selection .selection-recruitment .table-wrap .attention strong {
+	color:#d22d36;
+	font-weight:400;
+}
+.recruitment.selection .a-subject .table-wrap tbody tr:nth-of-type(1) {
+	border-bottom:1px solid #ccc; 
+}
+.recruitment.selection .a-subject .table-wrap .table tbody tr td {
+	text-align:center;
+}
+.recruitment.selection .a-subject .table-wrap .table tbody tr:nth-of-type(1) td:nth-of-type(2) {
+	line-height:24px;
+}
+.recruitment.selection .a-subject .table-wrap .table tbody tr:nth-of-type(1) td:nth-of-type(4) {
+	text-align:left;
+}
+.recruitment.selection .a-subject .table-wrap .table tbody tr:nth-of-type(2) td:last-child { 
+	text-align:left;
+}
+.recruitment.selection .a-subject .table-wrap .table tbody tr:nth-of-type(3) td:last-child { 
+	text-align:left;
+}
+
+.recruitment.selection .a-subject .table-wrap:nth-of-type(2) {
+	margin-top:10px;
+}
+.recruitment.selection .a-subject .table-wrap:nth-of-type(2) tbody tr th {
+	color:#333;
+	border-right:1px solid #ccc; 
+	text-align:center; 
+	font-weight:400;
+	vertical-align:middle;
+	background-color:#f9f9f9;
+}
+.recruitment.selection .a-subject .table-wrap:nth-of-type(2) tbody tr td:last-child {
+	text-align:center;
+}
+.recruitment.selection .a-subject .table-wrap:nth-of-type(2) tbody tr td {
+	text-align:left;
+}
+.recruitment.selection .a-subject .table-wrap:nth-of-type(2) tbody tr td .attention {
+	font-size:14px;
+	margin-top:0;
+	line-height:normal;
+}
+.recruitment.selection .a-subject .table-wrap:nth-of-type(2) tbody tr td .attention:before { 
+	padding-right:3px;
+}
+.recruitment.selection .student-record .table-wrap .table thead tr th { 
+	vertical-align:middle;
+	line-height:normal;
+}
+.recruitment.selection .student-record .table-wrap .table tbody tr td {
+	text-align:center; 
+} 
+.recruitment.selection .student-record .table-wrap .table tbody tr:nth-of-type(1) td:last-child {
+	border-bottom:1px solid #ccc;  
+}
+.recruitment.selection .student-record .table-wrap .table tbody tr:nth-of-type(3) {
+	border-bottom:1px solid #ccc; 
+}
+.recruitment.selection .additional .section-content h4 {
+	font-size:18px;
+	color:#333;
+	font-weight:400;
+}
+.recruitment.selection .additional .section-content h4:nth-of-type(2) {
+	margin-top:40px;
+}
+.recruitment.selection .additional .section-content .content-list {
+	padding-left:15px;
+}
+.recruitment.selection .additional .section-content .content-list li {
+	font-size:15px; 
+	color:#666;
+}
+.recruitment.selection .additional .section-content .content-list li strong {
+	font-weight:400;
+	color:#333;
+}
+.recruitment.selection .exception .table-wrap .table tbody tr td:first-child {
+	text-align:center; 
+}
+.recruitment.selection .selection-principles .section-content .content-list li .table-wrap { 
+	margin:20px 0 12px -20px;
+}
+.recruitment.selection .selection-principles .section-content .content-list li .table-wrap .table tbody tr td {
+	text-align:center;
+}
+
+
+/* interview-test */
+.recruitment.interview-test .container {padding-bottom:140px; }
+.recruitment.interview-test .table-align {
+	text-align:left !important;
+}
+.recruitment.interview-test .table-padding {
+	text-align:left !important;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td {
+	line-height:24px;
+	text-align:center;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td dl {
+	overflow:hidden;
+	color:#666;
+	margin-bottom:0;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td dl dt {
+	display:inline-block;
+	float:left;
+	font-size:14px;
+	font-weight:300;
+	line-height:24px;
+	text-align:left;	
+	clear:both;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td dl dd {
+	float:left;
+	display:inline-block;
+	font-size:14px;
+	line-height:24px;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td dl dt:after {
+	content:":";
+	padding:0 5px;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td .circle-list li {
+	line-height:24px;
+}
+.recruitment.interview-test .table-wrap .table tbody tr:nth-of-type(4) td:nth-of-type(5) dl dd .circle-list:nth-of-type(1) {
+	margin-top:2px;
+}
+.recruitment.interview-test .table-wrap .table tbody tr:nth-of-type(4) td:nth-of-type(5) dl dd:nth-of-type(1) .circle-list:nth-of-type(1) li {
+	float:left;
+	padding-right:5px;
+}
+.recruitment.interview-test .table-wrap .table tbody tr:nth-of-type(4) td:nth-of-type(5) dl dd .circle-list:nth-of-type(1) li:last-child {
+	padding-right:0;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td .standard {
+	padding-left:6px;
+}
+.recruitment.interview-test .table-wrap .table tbody tr:nth-of-type(6) td:nth-of-type(5) .circle-list {
+	margin-bottom:35px;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td .attention:before {
+	padding-right:3px;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td .number-list li {
+	line-height:24px;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td .number-list dl {
+	overflow: visible;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td .number-list dl dt {
+	float: none;
+	display: inline-block;
+}
+.recruitment.interview-test .table-wrap .table tbody tr td .number-list dl dd {
+	float: none;
+}
+.recruitment.interview-test .table-wrap > .attention {
+	font-size:15px;
+	margin-top:20px;
+}
+
+
+/* submission */
+.recruitment.submission .container {
+	padding-bottom:140px;
+}
+.recruitment.submission .content-list {
+	padding-left:15px;
+}
+.recruitment.submission .submission-document .table-wrap .table {
+	margin-bottom:20px;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td:first-child {
+	text-align:center;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list {
+	text-align:left;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list li {
+	line-height:20px;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list li a {
+	color:#666;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list li a:hover {
+	text-decoration:underline;
+	color:#666;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list .after-list {
+	position:relative !important;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td .circle-list .after-list:after {
+	position:absolute;
+	top:0;
+	left:205px;
+	content:":";
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td .attention:before {
+	padding-right:3px;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td h4:first-child {
+	margin-top:0;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td h4 {
+	margin:0;
+	font-size:14px; 
+	color:#666;
+	font-weight:300;
+	margin-top:30px;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td h4:before {
+	content:"[";
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr td h4:after {
+	content:"]";
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr:last-child {
+	height:586px;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr:last-child td .dl-inline {
+	display:inline-block;
+}
+.recruitment.submission .submission-document .table-wrap .table tbody tr:nth-of-type(9) td .dl-inline {
+	display:inline-block;
+}
+.recruitment.submission .table-wrap .attention {
+	line-height:24px;
+}
+.recruitment.submission .table-wrap .attention b {
+	color:#333;
+	font-weight:400;
+}
+.recruitment.submission .application-fee .table-wrap .table {
+	margin-bottom:20px;
+}
+.recruitment.submission .application-fee .table-wrap .table tbody tr:nth-of-type(5) {
+	border-bottom:1px solid #ccc;
+}
+.recruitment.submission .application-fee .table-wrap .table tbody tr:nth-of-type(7) td .circle-list {
+	margin-top:30px;
+}
+.recruitment.submission .successful .section-content h4 {
+	margin-top:0;
+	font-size:18px;
+	font-weight:400;
+	color:#333;
+}
+.recruitment.submission .successful .section-content h4:nth-of-type(2) {
+	margin-top:45px;
+}
+.recruitment.submission .successful .section-content .arrow-list {
+	display:inline-block;
+}
+.recruitment.submission .successful .section-content .arrow-list li {
+	font-size:15px;
+	font-weight:400;
+	color:#333;
+}
+.recruitment.submission .successful .section-content .arrow-list li:after {
+	content:"→";
+	padding:0 5px;
+}
+.recruitment.submission .successful .section-content .arrow-list li:last-child:after {
+	content:")";
+	padding:0;
+}
+.recruitment.submission .successful .section-content .arrow-list li:first-child:before {
+	content:"(";
+}
+.recruitment.submission .successful .section-content .content-list .table-wrap {
+	margin:10px 0 40px 0 ;
+}
+.recruitment.submission .successful .section-content .content-list li .table-wrap .table {
+	text-align:center;
+}
+.recruitment.submission .scholarship .section-content h4 { 
+	margin-top:0;
+	font-size:18px;
+	font-weight:400;
+	color:#333;
+}
+.recruitment.submission .scholarship .section-content .content-list:nth-of-type(1) {
+	margin-bottom:40px;
+}
+

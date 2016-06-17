@@ -1,0 +1,175 @@
+/* 공통 section-header */
+.section-header {padding:70px 0 40px 0; }
+.section-header hr {
+	width:24px; 
+	border: 1px solid #000;
+	display: inline-block;
+	margin-bottom:12px;
+}
+.section-header h3 {
+	margin:0;
+	font-size:30px;
+	color:#0d0d0d;
+	font-weight:300;
+}
+
+/* 공통 table-wrap */
+/* 공통 table-border  ,  table */
+.table-wrap .table-border {
+	border-top:2px solid #555; 
+	border-left:1px solid #ccc; 
+	border-right:1px solid #ccc;
+}
+.table-wrap .table thead {
+	background-color:#f9f9f9; 
+}
+.table-wrap .table thead th {
+	border-bottom:0; 
+	border-right:1px solid #ccc; 
+}
+.table-wrap .table thead th:last-child {
+	border-right:0; 
+}
+.table-wrap .table tbody tr:last-child {
+	border-bottom:1px solid #ccc; 
+}
+.table-wrap .table tbody tr td {
+	border-right:1px solid #ccc;
+}
+.table-wrap .table tbody tr td:last-child {
+	border-right:0; 
+}
+
+/* 공통 content-list */
+.content-list { }
+.content-list li { 
+	background-image:url('/assets/images/sub/r_arrow_l.png');
+	background-size:5px auto;
+	background-repeat:no-repeat;
+	background-position:0 7px;
+	padding-left:20px;
+	font-size:15px; 
+	color:#666;
+	line-height:24px;
+}
+/* circle-list */
+.circle-list {
+	padding-left:0; 
+}
+.circle-list > li {
+	position:relative; 
+	padding-left:20px; 
+	counter-increment:my-list-index; 
+	letter-spacing:-1px; 
+	font-size:14px;
+	color:#666;
+	line-height:20px;
+}
+.circle-list > li:before {
+	position:absolute; 
+	left:0; 
+	top:5px; 
+	display:inline-block; 
+	margin-right:5px; 
+	width:12px; 
+	height:12px; 
+	border-radius:50%; 
+	border:1px solid #333; line-height:10px; 
+	content:counter(my-list-index); 
+	font-size:11px; 
+	text-align:center; 
+	line-height:10px; 
+}
+
+/* btn-sm */
+.btn-area {
+	margin:30px 0 30px 0; 
+}
+.btn-area .btn-sm {
+	width:90px; 
+	height:30px !important; 
+	border-radius:0; 
+	font-size:14px; 
+	text-decoration:none; 
+	color:#fff; 
+	text-align:center; 
+	padding:0; 
+	line-height:28px !important; 
+}
+.btn-area .btn-gray {
+	background-color:#333; 
+}
+.btn-area .btn-pink {
+	background-color:#d22d36; 
+}
+.btn-area .btn-white {
+	background-color:#fff; 
+	border:1px solid #ccc;
+	width:60px; 
+	color:#666 !important; 
+}
+
+/* btn */
+.btn-area .btn {
+	width:100px; 
+	height:40px; 
+	border-radius:0; 
+	font-size:14px; 
+	text-decoration:none; 
+	color:#fff; 
+	text-align:center; 
+	padding:0; 
+	line-height:40px; 
+}
+.btn-area .btn:hover {
+	opacity:0.8;
+}
+
+/* paging */
+.paging .pagination .active a {
+	border-radius:19px !important; 
+	background-color:#333; 
+	color:#fff; 
+	width:32px; 
+}
+.paging .pagination .active a:hover {
+	background-color:#333 !important; 
+	color:#fff; 
+	text-decoration:none; 
+}
+.paging .pagination a {
+	color:#666; 
+	font-size:14px; 
+	border-radius:0 !important; 
+	border:0; 
+}
+.paging .pagination a:hover {
+	text-decoration:underline; 
+	background-color:#fff !important; 
+}
+
+/* search-area */
+.search-area {
+	position:relative; 
+	margin-bottom:40px; 
+}
+.search-area .form-control {
+	border-radius:0; 
+	height:40px; 
+	box-shadow:none; 
+	width:1101px;
+}
+.search-area .form-control:hover {
+	border-color:#ccc; 
+}
+.search-area button {
+	position:absolute; 
+	top:0; 
+	right:0; 
+	width:100px; 
+	height:40px; 
+	border-radius:0; 
+	border:1px solid #ccc; 
+	border-left:0; 
+	background-color:#fff; 
+}

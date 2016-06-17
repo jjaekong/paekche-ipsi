@@ -12,25 +12,25 @@
                 <li class="has-child">
                     <a href="#">모집요강</a>
                     <ul>
-                        <li><a href="#">전형일정</a></li>
-                        <li><a href="#">모집학과 및 모집인원</a></li>
-                        <li><a href="#">응시자격</a></li>
-                        <li><a href="#">전형방법 및 선발원칙</a></li>
-                        <li><a href="#">실기/면접시험 방법</a></li>
-                        <li><a href="#">제출서류 및 전형료</a></li>
+                        <li><a href="/recruitment/schedule/recruit_schedule.php">전형일정</a></li>
+                        <li><a href="/recruitment/schedule/department.php">모집학과 및 모집인원</a></li>
+                        <li><a href="/recruitment/qualification.php">응시자격</a></li>
+                        <li><a href="/recruitment/selection.php">전형방법 및 선발원칙</a></li>
+                        <li><a href="/recruitment/interview_test.php">실기/면접시험 방법</a></li>
+                        <li><a href="/recruitment/submission.php">제출서류 및 전형료</a></li>
                     </ul>
                 </li>
                 <li><a href="#">입학 Q&amp;A</a></li>
                 <li class="has-child">
                     <a href="#">입시정보</a>
                     <ul>
-                        <li><a href="#">공지사항</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">경쟁률</a></li>
-                        <li><a href="#">자료실</a></li>
-                        <li><a href="#">백제스타</a></li>
-                        <li><a href="#">내신성적산출</a></li>
-                        <li><a href="#">입시자료신청</a></li>
+                        <li><a href="/information/notice.php">공지사항</a></li>
+                        <li><a href="/information/faq_all.php">FAQ</a></li>
+                        <li><a href="/information/competition.php">경쟁률</a></li>
+                        <li><a href="/information/data.php">자료실</a></li>
+                        <li><a href="/information/star_list.php">백제스타</a></li>
+                        <li><a href="/information/grade.php">내신성적산출</a></li>
+                        <li><a href="/information/ipsidata.php">입시자료신청</a></li>
                     </ul>
                 </li>
             </ul>

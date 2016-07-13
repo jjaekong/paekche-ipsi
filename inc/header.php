@@ -8,7 +8,7 @@
         </div>
         <nav id="gnb" tabindex="-1">
             <ul>
-                <li><a href="#">학과안내</a></li>
+                <li><a href="./departments.php">학과안내</a></li>
                 <li class="has-child">
                     <a href="#">모집요강</a>
                     <ul>

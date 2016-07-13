@@ -1,0 +1,45 @@
+.depart-list {
+    margin-bottom: 150px;
+    ul {
+        overflow: hidden;
+        li {
+            float: left;
+            a {
+                display: block;
+                padding-top: 145px;
+                width: 234px;
+                height: 234px;
+                text-align: center;
+                font-size: 18px;
+                color: #fff;
+                background-color: #333;
+                font-weight: normal;
+                background-position: 50% 70px;
+                background-repeat: no-repeat;
+            }
+            &:nth-of-type(1) a { background-color: #333; background-image: url(/assets/images/departments/ico_depart_1.png); }
+            &:nth-of-type(2) a { background-color: #2b2b2b; background-image: url(/assets/images/departments/ico_depart_2.png); }
+            &:nth-of-type(3) a { background-color: #232323; background-image: url(/assets/images/departments/ico_depart_3.png); }
+            &:nth-of-type(4) a { background-color: #333; background-image: url(/assets/images/departments/ico_depart_4.png); }
+            &:nth-of-type(5) a { background-color: #272727; background-image: url(/assets/images/departments/ico_depart_5.png); }
+
+            &:nth-of-type(6) a { background-color: #232323; background-image: url(/assets/images/departments/ico_depart_6.png); }
+            &:nth-of-type(7) a { background-color: #333; background-image: url(/assets/images/departments/ico_depart_7.png); }
+            &:nth-of-type(8) a { background-color: #2b2b2b; background-image: url(/assets/images/departments/ico_depart_8.png); }
+            &:nth-of-type(9) a { background-color: #1a1a1a; background-image: url(/assets/images/departments/ico_depart_9.png); }
+            &:nth-of-type(10) a { background-color: #333; background-image: url(/assets/images/departments/ico_depart_10.png); }
+
+            &:nth-of-type(11) a { background-color: #333; background-image: url(/assets/images/departments/ico_depart_11.png); }
+            &:nth-of-type(12) a { background-color: #1a1a1a; background-image: url(/assets/images/departments/ico_depart_12.png); }
+            &:nth-of-type(13) a { background-color: #232323; background-image: url(/assets/images/departments/ico_depart_13.png); }
+            &:nth-of-type(14) a { background-color: #333; background-image: url(/assets/images/departments/ico_depart_14.png); }
+            &:nth-of-type(15) a { background-color: #272727; background-image: url(/assets/images/departments/ico_depart_15.png); }
+
+            &:nth-of-type(16) a { background-color: #232323; background-image: url(/assets/images/departments/ico_depart_16.png); }
+            &:nth-of-type(17) a { background-color: #333; background-image: url(/assets/images/departments/ico_depart_17.png); }
+            &:nth-of-type(18) a { background-color: #2b2b2b; background-image: url(/assets/images/departments/ico_depart_18.png); }
+            &:nth-of-type(19) a { background-color: #1a1a1a; background-image: url(/assets/images/departments/ico_depart_19.png); }
+            &:nth-of-type(20) a { background-color: #333; background-image: url(/assets/images/departments/ico_depart_20.png); }
+        }
+    }
+}
